@@ -1,0 +1,31 @@
+name: Run Tweet Script
+
+on:
+  schedule:
+    - cron: '0 */1 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: read
+      
+    container:
+      image: ghcr.io/${{ github.repository }}/tweet-script-base:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+      env:
+        OAUTH_CONSUMER_KEY: ${{ secrets.OAUTH_CONSUMER_KEY }}
+        OAUTH_CONSUMER_SECRET: ${{ secrets.OAUTH_CONSUMER_SECRET }}
+        OAUTH_ACCESS_TOKEN: ${{ secrets.OAUTH_ACCESS_TOKEN }}
+        OAUTH_ACCESS_TOKEN_SECRET: ${{ secrets.OAUTH_ACCESS_TOKEN_SECRET }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
+      - name: Run script
+        run: python .

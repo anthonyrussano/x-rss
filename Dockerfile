@@ -6,8 +6,8 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Create a non-root user
-RUN useradd -m -u 1000 appuser
+# Create a non-root user with UID 1001
+RUN useradd -m -u 1001 appuser
 USER appuser
 
 # Set the working directory to appuser's home

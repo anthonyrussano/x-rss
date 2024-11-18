@@ -20,7 +20,7 @@ jobs:
         run: mkdir -p logs
 
       - name: Run script in container
-        uses: docker://ghcr.io/${{ github.repository }}/tweet-script-base:latest
+        uses: docker://ghcr.io/anthonyrussano/x-rss/tweet-script-base:latest
         env:
           OAUTH_CONSUMER_KEY: ${{ secrets.OAUTH_CONSUMER_KEY }}
           OAUTH_CONSUMER_SECRET: ${{ secrets.OAUTH_CONSUMER_SECRET }}

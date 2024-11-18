@@ -9,7 +9,7 @@ jobs:
   run-script:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       packages: read
       
     container:
@@ -30,3 +30,13 @@ jobs:
         
       - name: Run script
         run: python .
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Commit and push if changes
+        run: |
+          git add posted_articles.json twitter_bot.log
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update posted articles and logs [skip ci]" && git push)

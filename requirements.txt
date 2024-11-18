@@ -1,3 +1,6 @@
-requests_oauthlib
+aiohttp
 feedparser
+pyyaml
+tenacity
+requests-oauthlib
 requests

@@ -31,12 +31,10 @@ jobs:
       - name: Run script
         run: python .
 
-      - name: Configure Git
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
-      - name: Commit and push if changes
-        run: |
-          git add posted_articles.json twitter_bot.log
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update posted articles and logs [skip ci]" && git push)
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'posted_articles.json twitter_bot.log'
+          message: 'Update logs [skip ci]'
+          default_author: github_actions
+          push: true

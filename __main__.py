@@ -41,8 +41,8 @@ def load_config() -> dict:
             "max_retry_wait": 10,
             "history_retention_days": 30,
             "article_freshness_hours": 24,
-            "max_feeds_per_run": 5,
-            "max_articles_per_feed": 3,
+            "max_feeds_per_run": 25,
+            "max_articles_per_feed": 5,
             "log_level": "INFO"
         }
     
@@ -318,17 +318,19 @@ class TwitterBot:
             logger.info(f"Successfully posted tweet: {tweet_text[:100]}...")
             return True
 
-async def process_feed(feed_url: str, rss_manager: RSSFeedManager, chat_client: XAIChat, twitter_bot: TwitterBot, post_history: PostHistory) -> None:
+async def process_feed(
+    feed_url: str,
+    rss_manager: RSSFeedManager,
+    chat_client: XAIChat,
+    twitter_bot: TwitterBot,
+    post_history: PostHistory
+) -> bool:  # Add return type to indicate if we posted
     """Process a single feed."""
-    logger.info(f"Starting to process feed: {feed_url}")
     try:
         articles = await rss_manager.fetch_latest_content(feed_url)
-        logger.info(f"Found {len(articles)} articles in feed {feed_url}")
         
         for article in articles:
-            logger.info(f"Processing article: {article.title}")
             if article.is_recent() and not post_history.is_posted(article):
-                logger.info(f"Article {article.title} is recent and not posted before, generating tweet...")
                 messages = [
                     {
                         "role": "system",
@@ -353,9 +355,13 @@ async def process_feed(feed_url: str, rss_manager: RSSFeedManager, chat_client: 
                 if tweet_text and await twitter_bot.post_tweet(tweet_text):
                     await post_history.add_posted(article)
                     logger.info(f"Successfully posted tweet for article: {article.title}")
+                    return True  # Return after first successful tweet
+                
+        return False
 
     except Exception as e:
         logger.error(f"Error processing feed {feed_url}: {str(e)}")
+        return False
 
 async def main():
     logger.info("Starting RSS feed processing...")
@@ -393,25 +399,24 @@ async def main():
         with open("rss") as f:
             logger.info(f.read())
 
-        # Process multiple feeds concurrently
-        logger.info("Getting random feeds to process...")
-        feeds = rss_manager.get_random_feeds()
-        logger.info(f"Selected {len(feeds)} feeds to process: {feeds}")
+        # Get one random feed
+        logger.info("Getting random feed to process...")
+        feeds = rss_manager.get_random_feeds(count=1)  # Only get one feed
+        logger.info(f"Selected feed to process: {feeds[0]}")
         
-        tasks = [
-            process_feed(
-                feed_url,
-                rss_manager,
-                chat_client,
-                twitter_bot,
-                post_history
-            )
-            for feed_url in feeds
-        ]
+        logger.info("Starting to process feed...")
+        tweet_posted = await process_feed(
+            feeds[0],  # Process only the first feed
+            rss_manager,
+            chat_client,
+            twitter_bot,
+            post_history
+        )
         
-        logger.info("Starting to process feeds...")
-        await asyncio.gather(*tasks)
-        logger.info("Finished processing all feeds")
+        if tweet_posted:
+            logger.info("Successfully posted one tweet, finishing process")
+        else:
+            logger.info("No suitable articles found to tweet")
 
     except Exception as e:
         logger.error(f"Error in main process: {str(e)}", exc_info=True)

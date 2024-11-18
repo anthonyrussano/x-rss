@@ -11,30 +11,29 @@ jobs:
     permissions:
       contents: write
       packages: read
-      
-    container:
-      image: ghcr.io/${{ github.repository }}/tweet-script-base:latest
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
-      env:
-        OAUTH_CONSUMER_KEY: ${{ secrets.OAUTH_CONSUMER_KEY }}
-        OAUTH_CONSUMER_SECRET: ${{ secrets.OAUTH_CONSUMER_SECRET }}
-        OAUTH_ACCESS_TOKEN: ${{ secrets.OAUTH_ACCESS_TOKEN }}
-        OAUTH_ACCESS_TOKEN_SECRET: ${{ secrets.OAUTH_ACCESS_TOKEN_SECRET }}
-        XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
-
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        
-      - name: Run script
-        run: python .
+
+      - name: Create logs directory
+        run: mkdir -p logs
+
+      - name: Run script in container
+        uses: docker://ghcr.io/${{ github.repository }}/tweet-script-base:latest
+        env:
+          OAUTH_CONSUMER_KEY: ${{ secrets.OAUTH_CONSUMER_KEY }}
+          OAUTH_CONSUMER_SECRET: ${{ secrets.OAUTH_CONSUMER_SECRET }}
+          OAUTH_ACCESS_TOKEN: ${{ secrets.OAUTH_ACCESS_TOKEN }}
+          OAUTH_ACCESS_TOKEN_SECRET: ${{ secrets.OAUTH_ACCESS_TOKEN_SECRET }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+        with:
+          args: python .
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
         with:
           add: 'posted_articles.json twitter_bot.log'
-          message: 'Update logs [skip ci]'
+          message: 'Update logs'
           default_author: github_actions
           push: true

@@ -10144,3 +10144,24 @@ json.decoder.JSONDecodeError: Expecting ',' delimiter: line 18 column 3 (char 10
 2024-11-19 11:14:56,916 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-19 11:14:56,916 - __main__ - INFO - Closing RSS manager...
 2024-11-19 11:14:56,917 - __main__ - INFO - RSS manager closed
+2024-11-19 12:36:28,020 - __main__ - INFO - Starting RSS feed processing...
+2024-11-19 12:36:28,020 - __main__ - INFO - Loading credentials...
+2024-11-19 12:36:28,020 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-19 12:36:28,020 - __main__ - INFO - Initializing components...
+2024-11-19 12:36:28,022 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-19 12:36:28,022 - __main__ - INFO - All components initialized successfully
+2024-11-19 12:36:28,022 - __main__ - INFO - Cleaning up old history entries...
+2024-11-19 12:36:28,023 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-19 12:36:28,023 - __main__ - INFO - Processing feed: https://glennsqlperformance.com/feed/
+2024-11-19 12:36:28,156 - rss_manager - INFO - Fetched 10 articles from https://glennsqlperformance.com/feed/.
+2024-11-19 12:36:28,156 - __main__ - INFO - Processing feed: https://www.nature.com/nchembio.rss
+2024-11-19 12:36:28,194 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/nchembio.rss.
+2024-11-19 12:36:28,194 - __main__ - INFO - Processing feed: https://www.nature.com/nrmicro.rss
+2024-11-19 12:36:28,883 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/nrmicro.rss.
+2024-11-19 12:36:30,944 - twitter_bot - INFO - Successfully posted tweet: 🧬 Ever wondered how bacteriophages choose their bacterial hosts? Check out this new study that uses genomic data to predict phage-host interactions! 📘 #Microbiology #Genomics #PhageTherapy
+
+🔗 Read more: https://www.nature.com/articles/s41579-024-01132-z
+2024-11-19 12:36:30,945 - __main__ - INFO - Successfully posted tweet for article: Predicting phage–host specificity
+2024-11-19 12:36:30,945 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-19 12:36:30,945 - __main__ - INFO - Closing RSS manager...
+2024-11-19 12:36:30,945 - __main__ - INFO - RSS manager closed

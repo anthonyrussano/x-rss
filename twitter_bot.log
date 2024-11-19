@@ -10165,3 +10165,42 @@ json.decoder.JSONDecodeError: Expecting ',' delimiter: line 18 column 3 (char 10
 2024-11-19 12:36:30,945 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-19 12:36:30,945 - __main__ - INFO - Closing RSS manager...
 2024-11-19 12:36:30,945 - __main__ - INFO - RSS manager closed
+2024-11-19 13:27:23,391 - __main__ - INFO - Starting RSS feed processing...
+2024-11-19 13:27:23,391 - __main__ - INFO - Loading credentials...
+2024-11-19 13:27:23,392 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-19 13:27:23,392 - __main__ - INFO - Initializing components...
+2024-11-19 13:27:23,393 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-19 13:27:23,394 - __main__ - INFO - All components initialized successfully
+2024-11-19 13:27:23,394 - __main__ - INFO - Cleaning up old history entries...
+2024-11-19 13:27:23,394 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-19 13:27:23,394 - __main__ - INFO - Processing feed: https://www.copyright.gov/rss/creativity.xml
+2024-11-19 13:27:23,619 - rss_manager - INFO - Fetched 25 articles from https://www.copyright.gov/rss/creativity.xml.
+2024-11-19 13:27:23,620 - __main__ - INFO - Processing feed: http://forums.rancher.com/c/application-platform.rss
+2024-11-19 13:27:24,173 - rss_manager - ERROR - Error fetching feed http://forums.rancher.com/c/application-platform.rss: 404, message='Not Found', url='https://forums.rancher.com/c/application-platform.rss'
+2024-11-19 13:27:24,173 - __main__ - INFO - Processing feed: https://investors.splunk.com/rss/news-releases.xml
+2024-11-19 13:27:24,866 - rss_manager - WARNING - No entries found in feed: https://investors.splunk.com/rss/news-releases.xml
+2024-11-19 13:27:24,866 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-x.rss
+2024-11-19 13:27:25,045 - rss_manager - INFO - Fetched 25 articles from https://www.fema.gov/news/news_region-x.rss.
+2024-11-19 13:27:25,045 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-ii.rss
+2024-11-19 13:27:25,105 - rss_manager - INFO - Fetched 25 articles from https://www.fema.gov/news/news_region-ii.rss.
+2024-11-19 13:27:25,105 - __main__ - INFO - Processing feed: https://www.nature.com/nmat.rss
+2024-11-19 13:27:25,143 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/nmat.rss.
+2024-11-19 13:27:25,143 - __main__ - INFO - Processing feed: https://grafana.com/blog/index.xml
+2024-11-19 13:27:25,258 - rss_manager - INFO - Fetched 10 articles from https://grafana.com/blog/index.xml.
+2024-11-19 13:27:25,258 - __main__ - INFO - Processing feed: https://investors.cyberark.com/rss/pressrelease.aspx
+2024-11-19 13:27:25,334 - rss_manager - ERROR - Error fetching feed https://investors.cyberark.com/rss/pressrelease.aspx: 403, message='Forbidden', url='https://investors.cyberark.com/rss/pressrelease.aspx'
+2024-11-19 13:27:25,334 - __main__ - INFO - Processing feed: http://loc.gov/rss/copyright/mma.xml
+2024-11-19 13:27:25,561 - rss_manager - INFO - Fetched 25 articles from http://loc.gov/rss/copyright/mma.xml.
+2024-11-19 13:27:25,561 - __main__ - INFO - Processing feed: https://www.cisa.gov/uscert/ics/monitors/monitors.xml
+2024-11-19 13:27:25,885 - rss_manager - ERROR - Error fetching feed https://www.cisa.gov/uscert/ics/monitors/monitors.xml: 404, message='Not Found', url='https://www.cisa.gov/uscert/ics/monitors/monitors.xml'
+2024-11-19 13:27:25,885 - __main__ - INFO - Processing feed: https://www.copyright.gov/rss/eservice.xml
+2024-11-19 13:27:26,058 - rss_manager - INFO - Fetched 25 articles from https://www.copyright.gov/rss/eservice.xml.
+2024-11-19 13:27:26,058 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=marketplacevideos
+2024-11-19 13:27:26,135 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=marketplacevideos.
+2024-11-19 13:27:28,806 - twitter_bot - INFO - Successfully posted tweet: Intel missed the AI boat, but the U.S. is betting big on chip manufacturing with hefty grants. Meanwhile, Robert F. Kennedy Jr. gears up for a major role in health. Dive into the details on this week's #EconomicsOnTap livestream! 🧠💻 #TechTalk #Intel #AI 
+
+https://www.youtube.com/watch?v=kNbeSISZ8ZA
+2024-11-19 13:27:28,806 - __main__ - INFO - Successfully posted tweet for article: How Intel Missed the AI Boat | Economics on Tap | Make Me Smart Livestream
+2024-11-19 13:27:28,806 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-19 13:27:28,806 - __main__ - INFO - Closing RSS manager...
+2024-11-19 13:27:28,807 - __main__ - INFO - RSS manager closed

@@ -10286,3 +10286,29 @@ Check out the details here: https://www.mongodb.com/blog/post/3-ways-mongodb-ea-
 2024-11-19 17:16:25,636 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-19 17:16:25,636 - __main__ - INFO - Closing RSS manager...
 2024-11-19 17:16:25,636 - __main__ - INFO - RSS manager closed
+2024-11-19 18:25:06,238 - __main__ - INFO - Starting RSS feed processing...
+2024-11-19 18:25:06,238 - __main__ - INFO - Loading credentials...
+2024-11-19 18:25:06,238 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-19 18:25:06,238 - __main__ - INFO - Initializing components...
+2024-11-19 18:25:06,240 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-19 18:25:06,240 - __main__ - INFO - All components initialized successfully
+2024-11-19 18:25:06,240 - __main__ - INFO - Cleaning up old history entries...
+2024-11-19 18:25:06,241 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-19 18:25:06,241 - __main__ - INFO - Processing feed: https://www.copyright.gov/rss/creativity.xml
+2024-11-19 18:25:06,455 - rss_manager - INFO - Fetched 25 articles from https://www.copyright.gov/rss/creativity.xml.
+2024-11-19 18:25:06,455 - __main__ - INFO - Processing feed: https://www.pulumi.com/blog/rss.xml
+2024-11-19 18:25:07,460 - rss_manager - INFO - Fetched 50 articles from https://www.pulumi.com/blog/rss.xml.
+2024-11-19 18:25:07,460 - __main__ - INFO - Processing feed: https://www.sqlshack.com/feed/
+2024-11-19 18:25:07,551 - rss_manager - INFO - Fetched 10 articles from https://www.sqlshack.com/feed/.
+2024-11-19 18:25:07,551 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-iv.rss
+2024-11-19 18:25:07,857 - rss_manager - INFO - Fetched 10 articles from https://www.fema.gov/news/news_region-iv.rss.
+2024-11-19 18:25:10,759 - twitter_bot - INFO - Successfully posted tweet: Ready to rebuild and prepare? Join FEMA's free summit in Humphreys County on Sept. 28 for resources on housing, jobs, safety plans, and more. 🏠💼 Learn how to safeguard your future! #Preparedness #Recovery #HumphreysCounty
+
+📍 Humphreys County Multipurpose Building
+⏰ 10am - 1pm
+
+For more info: https://www.fema.gov/press-release/20241119/resource-and-preparedness-summit-humphreys-county
+2024-11-19 18:25:10,759 - __main__ - INFO - Successfully posted tweet for article: Resource and Preparedness Summit in Humphreys County
+2024-11-19 18:25:10,760 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-19 18:25:10,760 - __main__ - INFO - Closing RSS manager...
+2024-11-19 18:25:10,760 - __main__ - INFO - RSS manager closed

@@ -10043,3 +10043,22 @@ Traceback (most recent call last):
     obj, end = self.scan_once(s, idx)
                ^^^^^^^^^^^^^^^^^^^^^^
 json.decoder.JSONDecodeError: Expecting ',' delimiter: line 18 column 3 (char 1091)
+2024-11-19 07:29:03,643 - __main__ - INFO - Starting RSS feed processing...
+2024-11-19 07:29:03,644 - __main__ - INFO - Loading credentials...
+2024-11-19 07:29:03,644 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-19 07:29:03,644 - __main__ - INFO - Initializing components...
+2024-11-19 07:29:03,646 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-19 07:29:03,646 - __main__ - INFO - All components initialized successfully
+2024-11-19 07:29:03,646 - __main__ - INFO - Cleaning up old history entries...
+2024-11-19 07:29:03,646 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-19 07:29:03,646 - __main__ - INFO - Processing feed: https://www.databasejournal.com/feed/
+2024-11-19 07:29:03,764 - rss_manager - INFO - Fetched 10 articles from https://www.databasejournal.com/feed/.
+2024-11-19 07:29:03,765 - __main__ - INFO - Processing feed: https://news.ycombinator.com/rss
+2024-11-19 07:29:03,992 - rss_manager - INFO - Fetched 30 articles from https://news.ycombinator.com/rss.
+2024-11-19 07:29:06,189 - twitter_bot - INFO - Successfully posted tweet: 🚀 Ever wondered how fast AI models can get? Check out Llama 3.1 405B, now blazing through 969 tokens/s on Cerebras! ⚡️ #AI #TechInnovation 
+
+🔗 Read more: https://cerebras.ai/blog/llama-405b-inference
+2024-11-19 07:29:06,189 - __main__ - INFO - Successfully posted tweet for article: Llama 3.1 405B now runs at 969 tokens/s on Cerebras Inference
+2024-11-19 07:29:06,190 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-19 07:29:06,190 - __main__ - INFO - Closing RSS manager...
+2024-11-19 07:29:06,190 - __main__ - INFO - RSS manager closed

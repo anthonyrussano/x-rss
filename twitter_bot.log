@@ -10204,3 +10204,24 @@ https://www.youtube.com/watch?v=kNbeSISZ8ZA
 2024-11-19 13:27:28,806 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-19 13:27:28,806 - __main__ - INFO - Closing RSS manager...
 2024-11-19 13:27:28,807 - __main__ - INFO - RSS manager closed
+2024-11-19 14:21:33,094 - __main__ - INFO - Starting RSS feed processing...
+2024-11-19 14:21:33,094 - __main__ - INFO - Loading credentials...
+2024-11-19 14:21:33,094 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-19 14:21:33,095 - __main__ - INFO - Initializing components...
+2024-11-19 14:21:33,096 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-19 14:21:33,096 - __main__ - INFO - All components initialized successfully
+2024-11-19 14:21:33,096 - __main__ - INFO - Cleaning up old history entries...
+2024-11-19 14:21:33,097 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-19 14:21:33,097 - __main__ - INFO - Processing feed: https://www.mongodb.com/blog/rss
+2024-11-19 14:21:33,472 - rss_manager - INFO - Fetched 50 articles from https://www.mongodb.com/blog/rss.
+2024-11-19 14:21:35,554 - twitter_bot - INFO - Successfully posted tweet: MongoDB EA now on Azure Marketplace! 🌐 Here's how it benefits customers:
+
+1️⃣ Multi-Kubernetes cluster support
+2️⃣ Centralized management with Azure Arc
+3️⃣ Enhanced resilience & governance
+
+Check out the details here: https://www.mongodb.com/blog/post/3-ways-mongodb-ea-azure-arc-certification-serves-customers #MongoDB #AzureArc #CloudComputing
+2024-11-19 14:21:35,555 - __main__ - INFO - Successfully posted tweet for article: 3 Ways MongoDB EA Azure Arc Certification Serves Customers
+2024-11-19 14:21:35,555 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-19 14:21:35,555 - __main__ - INFO - Closing RSS manager...
+2024-11-19 14:21:35,555 - __main__ - INFO - RSS manager closed

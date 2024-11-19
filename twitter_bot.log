@@ -9641,6 +9641,7 @@ https://cprss.s3.amazonaws.com/nodeweekly.com.xml
 2024-11-18 23:17:08,145 - __main__ - INFO - No suitable articles found to tweet
 2024-11-18 23:17:08,145 - __main__ - INFO - Closing RSS manager...
 2024-11-18 23:17:08,145 - __main__ - INFO - RSS manager closed
+<<<<<<< HEAD
 2024-11-19 01:23:46,936 - __main__ - INFO - Starting RSS feed processing...
 2024-11-19 01:23:46,936 - __main__ - INFO - Loading credentials...
 2024-11-19 01:23:46,936 - __main__ - INFO - Credentials loaded and validated successfully
@@ -9664,3 +9665,185 @@ https://cprss.s3.amazonaws.com/nodeweekly.com.xml
 2024-11-19 01:24:28,218 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-19 01:24:28,218 - __main__ - INFO - Closing RSS manager...
 2024-11-19 01:24:28,219 - __main__ - INFO - RSS manager closed
+=======
+2024-11-18 17:25:38,612 - __main__ - INFO - Starting RSS feed processing...
+2024-11-18 17:25:38,612 - __main__ - INFO - Loading credentials...
+2024-11-18 17:25:38,613 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-18 17:25:38,613 - __main__ - INFO - Initializing components...
+2024-11-18 17:25:38,614 - __main__ - INFO - All components initialized successfully
+2024-11-18 17:25:38,614 - __main__ - INFO - Cleaning up old history entries...
+2024-11-18 17:25:38,614 - __main__ - ERROR - Error in main process: PostHistory.cleanup_old_entries() missing 1 required positional argument: 'days'
+Traceback (most recent call last):
+  File "/home/anthony/Workspace/x-rss/main.py", line 101, in main
+    await post_history.cleanup_old_entries()
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TypeError: PostHistory.cleanup_old_entries() missing 1 required positional argument: 'days'
+2024-11-18 17:25:38,614 - __main__ - INFO - Closing RSS manager...
+2024-11-18 17:26:52,883 - __main__ - INFO - Starting RSS feed processing...
+2024-11-18 17:26:52,883 - __main__ - INFO - Loading credentials...
+2024-11-18 17:26:52,883 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-18 17:26:52,883 - __main__ - INFO - Initializing components...
+2024-11-18 17:26:52,884 - __main__ - INFO - All components initialized successfully
+2024-11-18 17:26:52,884 - __main__ - INFO - Cleaning up old history entries...
+2024-11-18 17:26:52,885 - __main__ - ERROR - Error in main process: 'RSSFeedManager' object has no attribute 'get_random_feeds'
+Traceback (most recent call last):
+  File "/home/anthony/Workspace/x-rss/main.py", line 105, in main
+    feeds = rss_manager.get_random_feeds(count=len(rss_manager.feeds))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RSSFeedManager' object has no attribute 'get_random_feeds'
+2024-11-18 17:26:52,885 - __main__ - INFO - Closing RSS manager...
+2024-11-18 17:30:26,062 - __main__ - INFO - Starting RSS feed processing...
+2024-11-18 17:30:26,062 - __main__ - INFO - Loading credentials...
+2024-11-18 17:30:26,063 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-18 17:30:26,063 - __main__ - INFO - Initializing components...
+2024-11-18 17:30:26,064 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-18 17:30:26,064 - __main__ - INFO - All components initialized successfully
+2024-11-18 17:30:26,064 - __main__ - INFO - Cleaning up old history entries...
+2024-11-18 17:30:26,065 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-18 17:30:26,065 - __main__ - INFO - Processing feed: https://news.ycombinator.com/rss ! "devnews"
+2024-11-18 17:30:26,234 - rss_manager - ERROR - Error fetching feed https://news.ycombinator.com/rss ! "devnews": 404, message='Not Found', url='https://news.ycombinator.com/rss%20!%20%22devnews%22'
+2024-11-18 17:30:26,234 - __main__ - INFO - Processing feed: https://www.nature.com/npjscifood.rss ! "natural"
+2024-11-18 17:30:27,192 - rss_manager - ERROR - Error fetching feed https://www.nature.com/npjscifood.rss ! "natural": 404, message='Not Found', url='https://www.nature.com/npjscifood.rss%20!%20%22natural%22'
+2024-11-18 17:30:27,192 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCwFpzG5MK5Shg_ncAhrgr9g ! "~Awesome Open Source YouTube" ! "devnews"
+2024-11-18 17:30:27,521 - rss_manager - ERROR - Error fetching feed https://www.youtube.com/feeds/videos.xml?channel_id=UCwFpzG5MK5Shg_ncAhrgr9g ! "~Awesome Open Source YouTube" ! "devnews": 404, message='Not Found', url='https://www.youtube.com/feeds/videos.xml?channel_id=UCwFpzG5MK5Shg_ncAhrgr9g+!+%22~Awesome+Open+Source+YouTube%22+!+%22devnews%22'
+2024-11-18 17:30:27,521 - __main__ - INFO - Processing feed: https://www.nature.com/nsmb.rss ! "natural"
+2024-11-18 17:30:27,800 - rss_manager - ERROR - Error fetching feed https://www.nature.com/nsmb.rss ! "natural": 404, message='Not Found', url='https://www.nature.com/nsmb.rss%20!%20%22natural%22'
+2024-11-18 17:30:27,800 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCs10x-muRrTQMJ4Ya-fmIlw "~Snowflake YouTube" ! "bigdata"
+2024-11-18 17:30:27,896 - rss_manager - ERROR - Error fetching feed https://www.youtube.com/feeds/videos.xml?channel_id=UCs10x-muRrTQMJ4Ya-fmIlw "~Snowflake YouTube" ! "bigdata": 404, message='Not Found', url='https://www.youtube.com/feeds/videos.xml?channel_id=UCs10x-muRrTQMJ4Ya-fmIlw+%22~Snowflake+YouTube%22+!+%22bigdata%22'
+2024-11-18 17:30:27,896 - __main__ - INFO - Processing feed: https://www.teradata.com/rss/Blogs ! "databases"
+2024-11-18 17:30:29,928 - rss_manager - ERROR - Error fetching feed https://www.teradata.com/rss/Blogs ! "databases": 404, message='Not Found', url='https://www.teradata.com/rss/blogs%20!%20%22databases%22'
+2024-11-18 17:30:29,928 - __main__ - INFO - Processing feed: https://about.gitlab.com/atom.xml ! "cicd"
+2024-11-18 17:30:30,553 - rss_manager - ERROR - Error fetching feed https://about.gitlab.com/atom.xml ! "cicd": 404, message='Not Found', url='https://about.gitlab.com/atom.xml%20!%20%22cicd%22'
+2024-11-18 17:30:30,553 - __main__ - INFO - Processing feed: https://www.nature.com/npjsba.rss ! "natural"
+2024-11-18 17:30:30,837 - rss_manager - ERROR - Error fetching feed https://www.nature.com/npjsba.rss ! "natural": 404, message='Not Found', url='https://www.nature.com/npjsba.rss%20!%20%22natural%22'
+2024-11-18 17:30:30,838 - __main__ - INFO - Processing feed: https://www.dynatrace.com/news/feed/ ! "monitoringandlogging"
+2024-11-18 17:30:31,995 - rss_manager - ERROR - Error fetching feed https://www.dynatrace.com/news/feed/ ! "monitoringandlogging": 404, message='Not Found', url='https://www.dynatrace.com/news/feed/%20!%20%22monitoringandlogging'
+2024-11-18 17:30:31,995 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=ScrippsHealth ! "natural"
+2024-11-18 17:30:32,146 - rss_manager - ERROR - Error fetching feed https://www.youtube.com/feeds/videos.xml?user=ScrippsHealth ! "natural": 404, message='Not Found', url='https://www.youtube.com/feeds/videos.xml?user=ScrippsHealth+!+%22natural%22'
+2024-11-18 17:30:32,146 - __main__ - INFO - Processing feed: http://blogs.loc.gov/headlinesandheroes/feed/ ! "govt"
+2024-11-18 17:30:33,111 - rss_manager - ERROR - Error fetching feed http://blogs.loc.gov/headlinesandheroes/feed/ ! "govt": 404, message='Not Found', url='https://blogs.loc.gov/headlinesandheroes/feed/%20!%20%22govt'
+2024-11-18 17:30:33,111 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=ServeTheHomeVideo ! "hardware"
+2024-11-18 17:30:33,203 - rss_manager - ERROR - Error fetching feed https://www.youtube.com/feeds/videos.xml?user=ServeTheHomeVideo ! "hardware": 404, message='Not Found', url='https://www.youtube.com/feeds/videos.xml?user=ServeTheHomeVideo+!+%22hardware%22'
+2024-11-18 17:30:33,203 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-iv.rss ! "~FEMA Region 4" ! "govt"
+2024-11-18 17:30:40,142 - rss_manager - ERROR - Error fetching feed https://www.fema.gov/news/news_region-iv.rss ! "~FEMA Region 4" ! "govt": 404, message='Not Found', url='https://www.fema.gov/news/news_region-iv.rss%20!%20%22~FEMA%20Region%204%22%20!%20%22govt%22'
+2024-11-18 17:30:40,142 - __main__ - INFO - Processing feed: https://cprss.s3.amazonaws.com/javascriptweekly.com.xml
+2024-11-18 17:30:41,120 - rss_manager - INFO - Fetched 4 articles from https://cprss.s3.amazonaws.com/javascriptweekly.com.xml.
+2024-11-18 17:30:41,120 - __main__ - ERROR - Error processing feed https://cprss.s3.amazonaws.com/javascriptweekly.com.xml: 'dict' object has no attribute 'is_recent'
+2024-11-18 17:30:41,120 - __main__ - INFO - Processing feed: http://blogs.loc.gov/inside_adams/feed/ ! "govt"
+2024-11-18 17:30:42,154 - rss_manager - ERROR - Error fetching feed http://blogs.loc.gov/inside_adams/feed/ ! "govt": 404, message='Not Found', url='https://blogs.loc.gov/inside_adams/feed/%20!%20%22govt'
+2024-11-18 17:30:42,154 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCp6NUFV9mSEK6RxUiEVymVg ! "~RedHat YouTube" ! "serveradministration"
+2024-11-18 17:30:42,303 - rss_manager - ERROR - Error fetching feed https://www.youtube.com/feeds/videos.xml?channel_id=UCp6NUFV9mSEK6RxUiEVymVg ! "~RedHat YouTube" ! "serveradministration": 404, message='Not Found', url='https://www.youtube.com/feeds/videos.xml?channel_id=UCp6NUFV9mSEK6RxUiEVymVg+!+%22~RedHat+YouTube%22+!+%22serveradministration%22'
+2024-11-18 17:30:42,303 - __main__ - INFO - Processing feed: https://aws.amazon.com/blogs/devops/feed/ ! "clouds"
+2024-11-18 17:30:42,597 - rss_manager - ERROR - Error fetching feed https://aws.amazon.com/blogs/devops/feed/ ! "clouds": 404, message='', url='https://aws.amazon.com/blogs/devops/feed/%2520!%2520%2522clouds%2522/'
+2024-11-18 17:30:42,597 - __main__ - INFO - Processing feed: https://www.nature.com/nutd.rss ! "natural"
+2024-11-18 17:30:42,915 - rss_manager - ERROR - Error fetching feed https://www.nature.com/nutd.rss ! "natural": 404, message='Not Found', url='https://www.nature.com/nutd.rss%20!%20%22natural%22'
+2024-11-18 17:30:42,916 - __main__ - INFO - Processing feed: https://blog.google/technology/ai/rss/
+2024-11-18 17:30:43,463 - rss_manager - INFO - Fetched 20 articles from https://blog.google/technology/ai/rss/.
+2024-11-18 17:30:43,463 - __main__ - ERROR - Error processing feed https://blog.google/technology/ai/rss/: 'dict' object has no attribute 'is_recent'
+2024-11-18 17:30:43,464 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCYg157Qy_U7ZR1WUHTq0Q8Q ! "~AWS Containers from the Couch - YouTube" ! "clouds"
+2024-11-18 17:30:43,550 - rss_manager - ERROR - Error fetching feed https://www.youtube.com/feeds/videos.xml?channel_id=UCYg157Qy_U7ZR1WUHTq0Q8Q ! "~AWS Containers from the Couch - YouTube" ! "clouds": 404, message='Not Found', url='https://www.youtube.com/feeds/videos.xml?channel_id=UCYg157Qy_U7ZR1WUHTq0Q8Q+!+%22~AWS+Containers+from+the+Couch+-+YouTube%22+!+%22clouds%22'
+2024-11-18 17:30:43,550 - __main__ - INFO - Processing feed: https://www.brentozar.com/blog/feed/ ! "databases"
+2024-11-18 17:30:46,454 - rss_manager - ERROR - Error fetching feed https://www.brentozar.com/blog/feed/ ! "databases": 404, message='Not Found', url='https://www.brentozar.com/blog/feed/%20!%20%22databases'
+2024-11-18 17:30:46,454 - __main__ - INFO - Processing feed: http://forums.rancher.com/c/application-platform.rss ! "containers"
+2024-11-18 17:30:46,817 - rss_manager - ERROR - Error fetching feed http://forums.rancher.com/c/application-platform.rss ! "containers": 404, message='Not Found', url='https://forums.rancher.com/c/application-platform.rss%20!%20%22containers%22'
+2024-11-18 17:30:46,817 - __main__ - INFO - Processing feed: https://rweekly.org/atom.xml ! "rprog"
+2024-11-18 17:30:47,181 - rss_manager - ERROR - Error fetching feed https://rweekly.org/atom.xml ! "rprog": 404, message='Not Found', url='https://rweekly.org/atom.xml%20!%20%22rprog%22'
+2024-11-18 17:30:47,181 - __main__ - INFO - Processing feed: https://www.fluentd.org/blog/feed.rss ! "monitoringandlogging"
+2024-11-18 17:30:47,779 - rss_manager - ERROR - Error fetching feed https://www.fluentd.org/blog/feed.rss ! "monitoringandlogging": 404, message='Not Found', url='https://www.fluentd.org/blog/feed.rss%20!%20%22monitoringandlogging%22'
+2024-11-18 17:30:47,780 - __main__ - INFO - Processing feed: https://aws.amazon.com/blogs/big-data/feed/ ! "bigdata"
+2024-11-18 17:30:47,969 - rss_manager - ERROR - Error fetching feed https://aws.amazon.com/blogs/big-data/feed/ ! "bigdata": 404, message='', url='https://aws.amazon.com/blogs/big-data/feed/%2520!%2520%2522bigdata%2522/'
+2024-11-18 17:30:47,969 - __main__ - INFO - Processing feed: https://www.cisa.gov/uscert/ics/monitors/monitors.xml ! "security"
+2024-11-18 17:30:49,317 - rss_manager - ERROR - Error fetching feed https://www.cisa.gov/uscert/ics/monitors/monitors.xml ! "security": 404, message='Not Found', url='https://www.cisa.gov/uscert/ics/monitors/monitors.xml%20!%20%22security%22'
+2024-11-18 17:30:49,318 - __main__ - INFO - Processing feed: https://www.loc.gov/rss/news/library-of-congress-magazine/feed.xml ! "govt"
+2024-11-18 17:30:49,825 - rss_manager - ERROR - Error fetching feed https://www.loc.gov/rss/news/library-of-congress-magazine/feed.xml ! "govt": 404, message='Not Found', url='https://www.loc.gov/rss/news/library-of-congress-magazine/feed.xml%20!%20%22govt%22'
+2024-11-18 17:30:49,825 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=IdahoDeptofLabor ! "govt"
+2024-11-18 17:30:49,981 - rss_manager - ERROR - Error fetching feed https://www.youtube.com/feeds/videos.xml?user=IdahoDeptofLabor ! "govt": 404, message='Not Found', url='https://www.youtube.com/feeds/videos.xml?user=IdahoDeptofLabor+!+%22govt%22'
+2024-11-18 17:30:49,982 - __main__ - INFO - Processing feed: https://www.nist.gov/news-events/cybersecurity/rss.xml ! "nist"
+2024-11-18 17:30:50,825 - rss_manager - ERROR - Error fetching feed https://www.nist.gov/news-events/cybersecurity/rss.xml ! "nist": 404, message='Not Found', url='https://www.nist.gov/news-events/cybersecurity/rss.xml%20!%20%22nist%22'
+2024-11-18 17:30:50,825 - __main__ - INFO - Processing feed: https://github.blog/feed/ ! "cicd"
+2024-11-18 17:30:51,218 - rss_manager - ERROR - Error fetching feed https://github.blog/feed/ ! "cicd": 404, message='Not Found', url='https://github.blog/feed/%20!%20%22cicd'
+2024-11-18 17:30:51,218 - __main__ - INFO - Processing feed: https://redis.com/feed/ ! "databases"
+2024-11-18 17:30:52,302 - rss_manager - ERROR - Error fetching feed https://redis.com/feed/ ! "databases": 404, message='Not Found', url='https://redis.io/feed/%20!%20%22databases'
+2024-11-18 17:30:52,302 - __main__ - INFO - Processing feed: https://aws.amazon.com/blogs/database/feed/ ! "databases"
+2024-11-18 17:30:52,497 - rss_manager - ERROR - Error fetching feed https://aws.amazon.com/blogs/database/feed/ ! "databases": 404, message='', url='https://aws.amazon.com/blogs/database/feed/%2520!%2520%2522databases%2522/'
+2024-11-18 17:30:52,497 - __main__ - INFO - Processing feed: https://www.loc.gov/rss/pao/news.xml ! "~Library of Congress - Latest News" ! "govt"
+2024-11-18 17:30:52,631 - rss_manager - ERROR - Error fetching feed https://www.loc.gov/rss/pao/news.xml ! "~Library of Congress - Latest News" ! "govt": 404, message='Not Found', url='https://www.loc.gov/rss/pao/news.xml%20!%20%22~Library%20of%20Congress%20-%20Latest%20News%22%20!%20%22govt%22'
+2024-11-18 17:30:52,631 - __main__ - INFO - Processing feed: https://huggingface.co/blog/feed.xml
+2024-11-18 17:30:52,981 - rss_manager - INFO - Fetched 481 articles from https://huggingface.co/blog/feed.xml.
+2024-11-18 17:30:52,982 - __main__ - ERROR - Error processing feed https://huggingface.co/blog/feed.xml: 'dict' object has no attribute 'is_recent'
+2024-11-18 17:30:52,982 - __main__ - INFO - Processing feed: https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=2&Site=945&max=10 ! "~Defense.gov Advisories" ! "govt"
+2024-11-18 17:30:53,835 - rss_manager - INFO - Fetched 500 articles from https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=2&Site=945&max=10 ! "~Defense.gov Advisories" ! "govt".
+2024-11-18 17:30:53,836 - __main__ - ERROR - Error processing feed https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=2&Site=945&max=10 ! "~Defense.gov Advisories" ! "govt": 'dict' object has no attribute 'is_recent'
+2024-11-18 17:30:53,836 - __main__ - INFO - Processing feed: https://blogs.loc.gov/preservation/feed/ ! "govt"
+2024-11-18 17:30:54,828 - rss_manager - ERROR - Error fetching feed https://blogs.loc.gov/preservation/feed/ ! "govt": 404, message='Not Found', url='https://blogs.loc.gov/preservation/feed/%20!%20%22govt'
+2024-11-18 17:30:54,828 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCoOq-DtESvayx5yJE5H6-qQ ! "~Thetips4you Youtube" ! "devnews"
+2024-11-18 17:30:54,917 - rss_manager - ERROR - Error fetching feed https://www.youtube.com/feeds/videos.xml?channel_id=UCoOq-DtESvayx5yJE5H6-qQ ! "~Thetips4you Youtube" ! "devnews": 404, message='Not Found', url='https://www.youtube.com/feeds/videos.xml?channel_id=UCoOq-DtESvayx5yJE5H6-qQ+!+%22~Thetips4you+Youtube%22+!+%22devnews%22'
+2024-11-18 17:30:54,917 - __main__ - INFO - Processing feed: http://www.loc.gov/rss/law/reports.xml ! "govt"
+2024-11-18 17:30:55,163 - rss_manager - ERROR - Error fetching feed http://www.loc.gov/rss/law/reports.xml ! "govt": 404, message='Not Found', url='http://www.loc.gov/rss/law/reports.xml%20!%20%22govt%22'
+2024-11-18 17:30:55,164 - __main__ - INFO - Processing feed: https://www.sqlservercentral.com/blogs/feed ! "databases"
+2024-11-18 17:31:14,088 - rss_manager - ERROR - Error fetching feed https://www.sqlservercentral.com/blogs/feed ! "databases": 404, message='Not Found', url='https://www.sqlservercentral.com/blogs/feed%20!%20%22databases'
+2024-11-18 17:31:14,088 - __main__ - INFO - Processing feed: https://www.cisa.gov/uscert/ics/alerts/alerts.xml ! "security"
+2024-11-18 17:31:14,890 - rss_manager - ERROR - Error fetching feed https://www.cisa.gov/uscert/ics/alerts/alerts.xml ! "security": 404, message='Not Found', url='https://www.cisa.gov/uscert/ics/alerts/alerts.xml%20!%20%22security%22'
+2024-11-18 17:31:14,890 - __main__ - INFO - Processing feed: https://www.redhat.com/en/rss/blog/channel/devops-and-devsecops ! "~Red Hat DevOps & DevSecOps Blog" ! "devnews"
+2024-11-18 17:31:15,607 - rss_manager - ERROR - Error fetching feed https://www.redhat.com/en/rss/blog/channel/devops-and-devsecops ! "~Red Hat DevOps & DevSecOps Blog" ! "devnews": 404, message='Not Found', url='https://www.redhat.com/en/rss/blog/channel/devops-and-devsecops%20!%20%22~Red%20Hat%20DevOps%20&%20DevSecOps%20Blog%22%20!%20%22devnews%22'
+2024-11-18 17:31:15,607 - __main__ - INFO - Processing feed: https://www.lfedge.org/feed/ ! "iot"
+2024-11-18 17:31:16,744 - __main__ - INFO - Closing RSS manager...
+2024-11-18 17:31:16,744 - __main__ - INFO - RSS manager closed
+2024-11-18 17:33:59,178 - __main__ - INFO - Starting RSS feed processing...
+2024-11-18 17:33:59,178 - __main__ - INFO - Loading credentials...
+2024-11-18 17:33:59,179 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-18 17:33:59,179 - __main__ - INFO - Initializing components...
+2024-11-18 17:33:59,180 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-18 17:33:59,180 - __main__ - INFO - All components initialized successfully
+2024-11-18 17:33:59,180 - __main__ - INFO - Cleaning up old history entries...
+2024-11-18 17:33:59,180 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-18 17:33:59,180 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCoOq-DtESvayx5yJE5H6-qQ
+2024-11-18 17:33:59,284 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCoOq-DtESvayx5yJE5H6-qQ.
+2024-11-18 17:33:59,284 - __main__ - INFO - Processing feed: https://www.nature.com/natfood.rss
+2024-11-18 17:33:59,400 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/natfood.rss.
+2024-11-18 17:33:59,400 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=UbuntuOnAir
+2024-11-18 17:33:59,523 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=UbuntuOnAir.
+2024-11-18 17:33:59,523 - __main__ - INFO - Processing feed: https://www.datadoghq.com/blog/index.xml
+2024-11-18 17:33:59,865 - rss_manager - INFO - Fetched 15 articles from https://www.datadoghq.com/blog/index.xml.
+2024-11-18 17:34:02,358 - __main__ - ERROR - Error processing feed https://www.datadoghq.com/blog/index.xml: 'TwitterBot' object has no attribute 'post_tweet'
+2024-11-18 17:34:02,358 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-iv.rss
+2024-11-18 17:34:02,554 - rss_manager - INFO - Fetched 10 articles from https://www.fema.gov/news/news_region-iv.rss.
+2024-11-18 17:34:04,289 - __main__ - ERROR - Error processing feed https://www.fema.gov/news/news_region-iv.rss: 'TwitterBot' object has no attribute 'post_tweet'
+2024-11-18 17:34:04,289 - __main__ - INFO - Processing feed: https://investors.cyberark.com/rss/pressrelease.aspx
+2024-11-18 17:34:04,907 - rss_manager - ERROR - Error fetching feed https://investors.cyberark.com/rss/pressrelease.aspx: 403, message='Forbidden', url='https://investors.cyberark.com/rss/pressrelease.aspx'
+2024-11-18 17:34:04,907 - __main__ - INFO - Processing feed: https://www.govinfo.gov/rss/bills.xml
+2024-11-18 17:34:05,844 - rss_manager - INFO - Fetched 100 articles from https://www.govinfo.gov/rss/bills.xml.
+2024-11-18 17:34:08,024 - __main__ - ERROR - Error processing feed https://www.govinfo.gov/rss/bills.xml: 'TwitterBot' object has no attribute 'post_tweet'
+2024-11-18 17:34:08,024 - __main__ - INFO - Processing feed: https://feeds.feedburner.com/prometheus/blog
+2024-11-18 17:34:08,629 - rss_manager - INFO - Fetched 10 articles from https://feeds.feedburner.com/prometheus/blog.
+2024-11-18 17:34:08,629 - __main__ - INFO - Processing feed: https://github.blog/feed/
+2024-11-18 17:34:08,807 - rss_manager - INFO - Fetched 10 articles from https://github.blog/feed/.
+2024-11-18 17:34:10,817 - __main__ - ERROR - Error processing feed https://github.blog/feed/: 'TwitterBot' object has no attribute 'post_tweet'
+2024-11-18 17:34:10,817 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCFe9-V_rN9nLqVNiI8Yof3w
+2024-11-18 17:34:10,871 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCFe9-V_rN9nLqVNiI8Yof3w.
+2024-11-18 17:34:10,872 - __main__ - INFO - Processing feed: https://aws.amazon.com/blogs/architecture/feed/
+2024-11-18 17:34:11,273 - rss_manager - INFO - Fetched 20 articles from https://aws.amazon.com/blogs/architecture/feed/.
+2024-11-18 17:34:13,029 - __main__ - ERROR - Error processing feed https://aws.amazon.com/blogs/architecture/feed/: 'TwitterBot' object has no attribute 'post_tweet'
+2024-11-18 17:34:13,030 - __main__ - INFO - Processing feed: https://aws.amazon.com/blogs/big-data/feed/
+2024-11-18 17:34:13,554 - rss_manager - INFO - Fetched 20 articles from https://aws.amazon.com/blogs/big-data/feed/.
+2024-11-18 17:34:13,554 - __main__ - INFO - Processing feed: https://oag.ca.gov/news/feed
+2024-11-18 17:34:13,932 - __main__ - INFO - Closing RSS manager...
+2024-11-18 17:34:13,933 - __main__ - INFO - RSS manager closed
+2024-11-18 17:38:15,027 - __main__ - INFO - Starting RSS feed processing...
+2024-11-18 17:38:15,027 - __main__ - INFO - Loading credentials...
+2024-11-18 17:38:15,027 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-18 17:38:15,027 - __main__ - INFO - Initializing components...
+2024-11-18 17:38:15,028 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-18 17:38:15,028 - __main__ - INFO - All components initialized successfully
+2024-11-18 17:38:15,028 - __main__ - INFO - Cleaning up old history entries...
+2024-11-18 17:38:15,029 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-18 17:38:15,029 - __main__ - INFO - Processing feed: https://blog.google/technology/ai/rss/
+2024-11-18 17:38:15,553 - rss_manager - INFO - Fetched 20 articles from https://blog.google/technology/ai/rss/.
+2024-11-18 17:38:17,860 - twitter_bot - INFO - Successfully posted tweet: 🚀 Dive into the cosmos with Google! Discover how AI is ushering in a new era of exploration from the comfort of your computer. ✨ #TechInnovation #AI #SpaceExploration 
+
+Read more: https://blog.google/technology/ai/a-new-era-of-discovery/
+2024-11-18 17:38:17,860 - __main__ - INFO - Successfully posted tweet for article: A new era of discovery
+2024-11-18 17:38:17,861 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-18 17:38:17,861 - __main__ - INFO - Closing RSS manager...
+2024-11-18 17:38:17,861 - __main__ - INFO - RSS manager closed
+>>>>>>> 106be72 (modularize the things)

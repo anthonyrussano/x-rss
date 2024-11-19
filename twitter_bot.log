@@ -10225,3 +10225,24 @@ Check out the details here: https://www.mongodb.com/blog/post/3-ways-mongodb-ea-
 2024-11-19 14:21:35,555 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-19 14:21:35,555 - __main__ - INFO - Closing RSS manager...
 2024-11-19 14:21:35,555 - __main__ - INFO - RSS manager closed
+2024-11-19 15:19:52,122 - __main__ - INFO - Starting RSS feed processing...
+2024-11-19 15:19:52,123 - __main__ - INFO - Loading credentials...
+2024-11-19 15:19:52,123 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-19 15:19:52,123 - __main__ - INFO - Initializing components...
+2024-11-19 15:19:52,124 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-19 15:19:52,125 - __main__ - INFO - All components initialized successfully
+2024-11-19 15:19:52,125 - __main__ - INFO - Cleaning up old history entries...
+2024-11-19 15:19:52,125 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-19 15:19:52,125 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=AWSwebinars
+2024-11-19 15:19:52,278 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=AWSwebinars.
+2024-11-19 15:19:52,278 - __main__ - INFO - Processing feed: http://blogs.loc.gov/ofthepeople/feed/
+2024-11-19 15:19:53,159 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/ofthepeople/feed/.
+2024-11-19 15:19:53,159 - __main__ - INFO - Processing feed: https://www.databricks.com/feed
+2024-11-19 15:19:53,270 - rss_manager - INFO - Fetched 25 articles from https://www.databricks.com/feed.
+2024-11-19 15:19:53,270 - __main__ - INFO - Processing feed: https://govbooktalk.gpo.gov/feed/
+2024-11-19 15:19:53,366 - rss_manager - INFO - Fetched 12 articles from https://govbooktalk.gpo.gov/feed/.
+2024-11-19 15:19:55,833 - twitter_bot - INFO - Successfully posted tweet: 🚀 This #AviationHistoryMonth, let's soar through time and honor the pioneers like the Wright brothers who changed the world! From their first flight to today's supersonic jets, discover the legacy of aviation innovation. ✈️ #HistoryMonth #WrightBrothers http://govbooktalk.gpo.gov/2024/11/19/honoring-the-pioneers-aviation-history-month/
+2024-11-19 15:19:55,833 - __main__ - INFO - Successfully posted tweet for article: Honoring the Pioneers: Aviation History Month
+2024-11-19 15:19:55,834 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-19 15:19:55,834 - __main__ - INFO - Closing RSS manager...
+2024-11-19 15:19:55,834 - __main__ - INFO - RSS manager closed

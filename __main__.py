@@ -394,29 +394,25 @@ async def main():
         logger.info("Cleaning up old history entries...")
         await post_history.cleanup_old_entries()
 
-        # Log RSS file contents
-        logger.info("Available feeds:")
-        with open("rss") as f:
-            logger.info(f.read())
+        # Get all feeds in random order
+        feeds = rss_manager.get_random_feeds(count=len(rss_manager.feeds))
+        logger.info(f"Loaded {len(feeds)} feeds for processing.")
 
-        # Get one random feed
-        logger.info("Getting random feed to process...")
-        feeds = rss_manager.get_random_feeds(count=1)  # Only get one feed
-        logger.info(f"Selected feed to process: {feeds[0]}")
-        
-        logger.info("Starting to process feed...")
-        tweet_posted = await process_feed(
-            feeds[0],  # Process only the first feed
-            rss_manager,
-            chat_client,
-            twitter_bot,
-            post_history
-        )
-        
-        if tweet_posted:
-            logger.info("Successfully posted one tweet, finishing process")
+        # Process feeds until a tweet is posted
+        for feed_url in feeds:
+            logger.info(f"Processing feed: {feed_url}")
+            tweet_posted = await process_feed(
+                feed_url,
+                rss_manager,
+                chat_client,
+                twitter_bot,
+                post_history
+            )
+            if tweet_posted:
+                logger.info("Successfully posted one tweet, finishing process.")
+                break
         else:
-            logger.info("No suitable articles found to tweet")
+            logger.warning("No suitable articles found across all feeds.")
 
     except Exception as e:
         logger.error(f"Error in main process: {str(e)}", exc_info=True)

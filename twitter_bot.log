@@ -9875,3 +9875,31 @@ Traceback (most recent call last):
     obj, end = self.scan_once(s, idx)
                ^^^^^^^^^^^^^^^^^^^^^^
 json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 17 column 1 (char 1022)
+2024-11-19 03:30:47,805 - __main__ - INFO - Starting RSS feed processing...
+2024-11-19 03:30:47,805 - __main__ - INFO - Loading credentials...
+2024-11-19 03:30:47,806 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-19 03:30:47,806 - __main__ - INFO - Initializing components...
+2024-11-19 03:30:47,806 - __main__ - ERROR - Error in main process: Expecting property name enclosed in double quotes: line 17 column 1 (char 1022)
+Traceback (most recent call last):
+  File "/github/workspace/__main__.py", line 86, in main
+    post_history = PostHistory()
+                   ^^^^^^^^^^^^^
+  File "/github/workspace/history.py", line 9, in __init__
+    self.posted_articles = self._load_history()
+                           ^^^^^^^^^^^^^^^^^^^^
+  File "/github/workspace/history.py", line 15, in _load_history
+    history = json.load(f)
+              ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 17 column 1 (char 1022)

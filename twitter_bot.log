@@ -10098,3 +10098,24 @@ json.decoder.JSONDecodeError: Expecting ',' delimiter: line 18 column 3 (char 10
 2024-11-19 09:19:34,337 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-19 09:19:34,338 - __main__ - INFO - Closing RSS manager...
 2024-11-19 09:19:34,338 - __main__ - INFO - RSS manager closed
+2024-11-19 10:19:38,519 - __main__ - INFO - Starting RSS feed processing...
+2024-11-19 10:19:38,519 - __main__ - INFO - Loading credentials...
+2024-11-19 10:19:38,519 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-19 10:19:38,519 - __main__ - INFO - Initializing components...
+2024-11-19 10:19:38,521 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-19 10:19:38,521 - __main__ - INFO - All components initialized successfully
+2024-11-19 10:19:38,521 - __main__ - INFO - Cleaning up old history entries...
+2024-11-19 10:19:38,521 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-19 10:19:38,522 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCG5B6oQWWsIt-yO826IwG2Q
+2024-11-19 10:19:38,694 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCG5B6oQWWsIt-yO826IwG2Q.
+2024-11-19 10:19:38,694 - __main__ - INFO - Processing feed: https://planet.scipy.org/feed.xml
+2024-11-19 10:19:38,995 - rss_manager - ERROR - Error fetching feed https://planet.scipy.org/feed.xml: Cannot connect to host planet.scipy.org:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'planet.scipy.org'. (_ssl.c:1006)")]
+2024-11-19 10:19:38,995 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCwFpzG5MK5Shg_ncAhrgr9g
+2024-11-19 10:19:39,010 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCwFpzG5MK5Shg_ncAhrgr9g.
+2024-11-19 10:19:39,010 - __main__ - INFO - Processing feed: https://deepmind.google/blog/rss.xml
+2024-11-19 10:19:39,678 - rss_manager - INFO - Fetched 100 articles from https://deepmind.google/blog/rss.xml.
+2024-11-19 10:19:41,434 - twitter_bot - INFO - Successfully posted tweet: 🚀 AI is not just changing tech, it's transforming science! The AI for Science Forum brings together brilliant minds to tackle global challenges through innovation. Discover how at: https://deepmind.google/discover/blog/the-ai-for-science-forum-a-new-era-of-discovery/ #AIforScience #Innovation
+2024-11-19 10:19:41,434 - __main__ - INFO - Successfully posted tweet for article: The AI for Science Forum: A new era of discovery
+2024-11-19 10:19:41,434 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-19 10:19:41,434 - __main__ - INFO - Closing RSS manager...
+2024-11-19 10:19:41,435 - __main__ - INFO - RSS manager closed

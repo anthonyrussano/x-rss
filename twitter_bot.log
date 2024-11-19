@@ -10312,3 +10312,34 @@ For more info: https://www.fema.gov/press-release/20241119/resource-and-prepared
 2024-11-19 18:25:10,760 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-19 18:25:10,760 - __main__ - INFO - Closing RSS manager...
 2024-11-19 18:25:10,760 - __main__ - INFO - RSS manager closed
+2024-11-19 19:14:38,351 - __main__ - INFO - Starting RSS feed processing...
+2024-11-19 19:14:38,351 - __main__ - INFO - Loading credentials...
+2024-11-19 19:14:38,351 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-19 19:14:38,351 - __main__ - INFO - Initializing components...
+2024-11-19 19:14:38,353 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-19 19:14:38,353 - __main__ - INFO - All components initialized successfully
+2024-11-19 19:14:38,353 - __main__ - INFO - Cleaning up old history entries...
+2024-11-19 19:14:38,354 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-19 19:14:38,354 - __main__ - INFO - Processing feed: https://www.nature.com/natsynth.rss
+2024-11-19 19:14:38,385 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/natsynth.rss.
+2024-11-19 19:14:38,385 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-ii.rss
+2024-11-19 19:14:48,454 - rss_manager - INFO - Fetched 25 articles from https://www.fema.gov/news/news_region-ii.rss.
+2024-11-19 19:14:48,454 - __main__ - INFO - Processing feed: https://analytixon.com/feed/
+2024-11-19 19:14:48,804 - rss_manager - ERROR - Error fetching feed https://analytixon.com/feed/: Cannot connect to host analytixon.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1006)')]
+2024-11-19 19:14:48,804 - __main__ - INFO - Processing feed: https://airflow.apache.org/blog/index.xml
+2024-11-19 19:14:49,018 - rss_manager - INFO - Fetched 28 articles from https://airflow.apache.org/blog/index.xml.
+2024-11-19 19:14:49,018 - __main__ - INFO - Processing feed: https://www.databasejournal.com/feed/
+2024-11-19 19:14:49,091 - rss_manager - INFO - Fetched 10 articles from https://www.databasejournal.com/feed/.
+2024-11-19 19:14:49,091 - __main__ - INFO - Processing feed: https://www.dynatrace.com/news/category/devops/feed/
+2024-11-19 19:14:49,771 - rss_manager - INFO - Fetched 24 articles from https://www.dynatrace.com/news/category/devops/feed/.
+2024-11-19 19:14:49,772 - __main__ - INFO - Processing feed: https://www.cisa.gov/uscert/ics/monitors/monitors.xml
+2024-11-19 19:14:50,002 - rss_manager - ERROR - Error fetching feed https://www.cisa.gov/uscert/ics/monitors/monitors.xml: 404, message='Not Found', url='https://www.cisa.gov/uscert/ics/monitors/monitors.xml'
+2024-11-19 19:14:50,002 - __main__ - INFO - Processing feed: https://feed.podbean.com/omfif/feed.xml
+2024-11-19 19:14:50,589 - rss_manager - INFO - Fetched 100 articles from https://feed.podbean.com/omfif/feed.xml.
+2024-11-19 19:14:53,556 - twitter_bot - INFO - Successfully posted tweet: 🚀 Governments, it's time to get tech-savvy! 📱 A new report discusses how embracing tech like #blockchain & #AI can revolutionize public finance. Learn why innovation in governance is crucial from experts at OMFIF, EY, & the European Commission. 🧠💡 
+
+🔗 Check it out: https://omfif.podbean.com/e/why-governments-should-embrace-technology/
+2024-11-19 19:14:53,557 - __main__ - INFO - Successfully posted tweet for article: Why governments should embrace technology
+2024-11-19 19:14:53,558 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-19 19:14:53,558 - __main__ - INFO - Closing RSS manager...
+2024-11-19 19:14:53,558 - __main__ - INFO - RSS manager closed

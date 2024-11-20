@@ -13419,3 +13419,28 @@ How to Perform a Wald Test in R: 📊👉 https://www.r-bloggers.com/2024/11/how
 2024-11-20 22:17:25,540 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-20 22:17:25,540 - __main__ - INFO - Closing RSS manager...
 2024-11-20 22:17:25,540 - __main__ - INFO - RSS manager closed
+2024-11-20 23:17:25,585 - __main__ - INFO - Starting RSS feed processing...
+2024-11-20 23:17:25,585 - __main__ - INFO - Loading credentials...
+2024-11-20 23:17:25,585 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-20 23:17:25,585 - __main__ - INFO - Initializing components...
+2024-11-20 23:17:25,587 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-20 23:17:25,587 - __main__ - INFO - All components initialized successfully
+2024-11-20 23:17:25,587 - __main__ - INFO - Cleaning up old history entries...
+2024-11-20 23:17:25,588 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-20 23:17:25,588 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=ServeTheHomeVideo
+2024-11-20 23:17:25,785 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=ServeTheHomeVideo.
+2024-11-20 23:17:25,785 - __main__ - INFO - Processing feed: https://www.microsoft.com/en-us/research/feed/
+2024-11-20 23:17:25,938 - rss_manager - INFO - Fetched 10 articles from https://www.microsoft.com/en-us/research/feed/.
+2024-11-20 23:17:25,938 - __main__ - INFO - Processing feed: https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=10&ContentType=1&Site=945
+2024-11-20 23:17:26,081 - rss_manager - INFO - Fetched 10 articles from https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=10&ContentType=1&Site=945.
+2024-11-20 23:17:28,299 - twitter_bot - INFO - Successfully posted tweet: 🚀 Ever thought of joining the Space Force... but not in uniform? 🪖 Check out how you can become a civilian 'Guardian' through this cool ROTC-like program! 🌌 #SpaceForce #CivilianGuardians
+
+What's your take on this? Would you sign up to explore space from your desk? 🧑‍🚀
+
+@US_SpaceForce
+
+[URL]
+2024-11-20 23:17:28,300 - __main__ - INFO - Successfully posted tweet for article: ROTC-Like Recruitment Program Helping Space Force Find Civilian 'Guardians'
+2024-11-20 23:17:28,300 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-20 23:17:28,300 - __main__ - INFO - Closing RSS manager...
+2024-11-20 23:17:28,300 - __main__ - INFO - RSS manager closed

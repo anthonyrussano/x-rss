@@ -13344,3 +13344,36 @@ Share your thoughts below! ⬇️ #FEMA #Wildfire
 2024-11-20 19:14:56,635 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-20 19:14:56,635 - __main__ - INFO - Closing RSS manager...
 2024-11-20 19:14:56,636 - __main__ - INFO - RSS manager closed
+2024-11-20 20:19:47,746 - __main__ - INFO - Starting RSS feed processing...
+2024-11-20 20:19:47,746 - __main__ - INFO - Loading credentials...
+2024-11-20 20:19:47,746 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-20 20:19:47,746 - __main__ - INFO - Initializing components...
+2024-11-20 20:19:47,748 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-20 20:19:47,748 - __main__ - INFO - All components initialized successfully
+2024-11-20 20:19:47,748 - __main__ - INFO - Cleaning up old history entries...
+2024-11-20 20:19:47,749 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-20 20:19:47,749 - __main__ - INFO - Processing feed: http://forums.rancher.com/c/application-platform.rss
+2024-11-20 20:19:48,274 - rss_manager - ERROR - Error fetching feed http://forums.rancher.com/c/application-platform.rss: 404, message='Not Found', url='https://forums.rancher.com/c/application-platform.rss'
+2024-11-20 20:19:48,275 - __main__ - INFO - Processing feed: https://www.nature.com/nri.rss
+2024-11-20 20:19:48,443 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/nri.rss.
+2024-11-20 20:19:48,443 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-v.rss
+2024-11-20 20:19:57,715 - rss_manager - INFO - Fetched 25 articles from https://www.fema.gov/news/news_region-v.rss.
+2024-11-20 20:19:57,716 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=marketplacevideos
+2024-11-20 20:19:57,884 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=marketplacevideos.
+2024-11-20 20:19:57,884 - __main__ - INFO - Processing feed: http://blogs.loc.gov/folklife/feed/
+2024-11-20 20:19:58,327 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/folklife/feed/.
+2024-11-20 20:19:58,328 - __main__ - INFO - Processing feed: https://investors.splunk.com/rss/news-releases.xml
+2024-11-20 20:19:58,752 - rss_manager - WARNING - No entries found in feed: https://investors.splunk.com/rss/news-releases.xml
+2024-11-20 20:19:58,752 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=geerlingguy
+2024-11-20 20:19:58,809 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=geerlingguy.
+2024-11-20 20:20:01,045 - twitter_bot - INFO - Successfully posted tweet: 🌍 **Can you run LLMs on a Raspberry Pi?** 🤔 
+
+Check out how @geerlingguy made it happen with a GPU-accelerated setup! 🚀
+
+What's your take on low-power AI? #RaspberryPi #AI #TechDebate 🔥
+
+Watch now: https://www.youtube.com/watch?v=AyR7iCS7gNI
+2024-11-20 20:20:01,045 - __main__ - INFO - Successfully posted tweet for article: LLM hardware acceleration—on a Raspberry Pi
+2024-11-20 20:20:01,046 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-20 20:20:01,046 - __main__ - INFO - Closing RSS manager...
+2024-11-20 20:20:01,046 - __main__ - INFO - RSS manager closed

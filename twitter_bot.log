@@ -10697,3 +10697,22 @@ What's the coolest thing you've done with Amazon Q Developer? Share your experie
 2024-11-20 10:19:35,675 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-20 10:19:35,675 - __main__ - INFO - Closing RSS manager...
 2024-11-20 10:19:35,675 - __main__ - INFO - RSS manager closed
+2024-11-20 11:14:54,551 - __main__ - INFO - Starting RSS feed processing...
+2024-11-20 11:14:54,551 - __main__ - INFO - Loading credentials...
+2024-11-20 11:14:54,551 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-20 11:14:54,551 - __main__ - INFO - Initializing components...
+2024-11-20 11:14:54,553 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-20 11:14:54,553 - __main__ - INFO - All components initialized successfully
+2024-11-20 11:14:54,553 - __main__ - INFO - Cleaning up old history entries...
+2024-11-20 11:14:54,554 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-20 11:14:54,554 - __main__ - INFO - Processing feed: https://www.sqlservercentral.com/blogs/feed
+2024-11-20 11:14:55,069 - rss_manager - INFO - Fetched 10 articles from https://www.sqlservercentral.com/blogs/feed.
+2024-11-20 11:14:57,740 - twitter_bot - INFO - Successfully posted tweet: 🚀 Ever wondered how to make your #PowerBI reports run like lightning? 📊 Check out this in-depth review of "Microsoft Power BI Performance Best Practices"! 🌩️ Is it worth your time? 📖 Share your thoughts below! 🧵 #DataViz #BI
+
+🔗 [URL](https://www.sqlservercentral.com/blogs/book-review-microsoft-power-bi-performance-best-practices)
+
+@SQLServerCentral @MicrosoftBI
+2024-11-20 11:14:57,741 - __main__ - INFO - Successfully posted tweet for article: Book Review – Microsoft Power BI Performance Best Practices
+2024-11-20 11:14:57,741 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-20 11:14:57,741 - __main__ - INFO - Closing RSS manager...
+2024-11-20 11:14:57,741 - __main__ - INFO - RSS manager closed

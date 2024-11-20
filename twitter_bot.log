@@ -13377,3 +13377,24 @@ Watch now: https://www.youtube.com/watch?v=AyR7iCS7gNI
 2024-11-20 20:20:01,046 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-20 20:20:01,046 - __main__ - INFO - Closing RSS manager...
 2024-11-20 20:20:01,046 - __main__ - INFO - RSS manager closed
+2024-11-20 21:17:10,882 - __main__ - INFO - Starting RSS feed processing...
+2024-11-20 21:17:10,882 - __main__ - INFO - Loading credentials...
+2024-11-20 21:17:10,882 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-20 21:17:10,882 - __main__ - INFO - Initializing components...
+2024-11-20 21:17:10,885 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-20 21:17:10,885 - __main__ - INFO - All components initialized successfully
+2024-11-20 21:17:10,885 - __main__ - INFO - Cleaning up old history entries...
+2024-11-20 21:17:10,885 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-20 21:17:10,885 - __main__ - INFO - Processing feed: https://www.technologyreview.com/topic/artificial-intelligence/feed/
+2024-11-20 21:17:10,946 - rss_manager - INFO - Fetched 10 articles from https://www.technologyreview.com/topic/artificial-intelligence/feed/.
+2024-11-20 21:17:10,947 - __main__ - INFO - Processing feed: https://www.nature.com/nature.rss
+2024-11-20 21:17:11,051 - rss_manager - INFO - Fetched 75 articles from https://www.nature.com/nature.rss.
+2024-11-20 21:17:13,378 - twitter_bot - INFO - Successfully posted tweet: 🧬 Ever wondered what makes you YOU on a cellular level? Dive into the future of personalized medicine with this groundbreaking cell atlas model! 🧪🔬 #CellAtlas #FutureMedicine
+
+Is this the key to unlocking tailored treatments for everyone? 👀👉 Check it out: https://www.nature.com/articles/s41586-024-08411-y
+
+@Nature @ScienceMagazine, what's your take? #ScienceTwitter
+2024-11-20 21:17:13,378 - __main__ - INFO - Successfully posted tweet for article: A cell atlas foundation model for scalable search of similar human cells
+2024-11-20 21:17:13,379 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-20 21:17:13,379 - __main__ - INFO - Closing RSS manager...
+2024-11-20 21:17:13,379 - __main__ - INFO - RSS manager closed

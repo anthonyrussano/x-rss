@@ -7,6 +7,8 @@ from rss_manager import RSSFeedManager
 from twitter_bot import TwitterBot
 from models import Article
 from xai_chat import XAIChat  # Assuming a separate module for the XAIChat logic
+from prompt_manager import PromptManager
+from thread_generator import ThreadGenerator
 
 from requests_oauthlib import OAuth1Session
 
@@ -32,45 +34,67 @@ async def process_feed(
     """Process a single feed to find and tweet a suitable article."""
     try:
         articles = await rss_manager.fetch_feed(feed_url)
+        prompt_manager = PromptManager()
+        thread_generator = ThreadGenerator()
         
         for article in articles:
             if article.is_recent(CONFIG["article_freshness_hours"]) and not post_history.is_posted(article):
-                messages = [
-                    {
-                        "role": "system",
-                        "content": (
-                            "You are an AI assistant specialized in creating viral tweets. "
-                            "Create engaging tweets that encourage discussion and sharing. "
-                            "Use these strategies:\n"
-                            "1. Ask thought-provoking questions\n"
-                            "2. Include relevant hashtags (max 2-3)\n"
-                            "3. Use emojis strategically\n"
-                            "4. Create controversy or debate when appropriate\n"
-                            "5. Tag relevant accounts when applicable"
-                        )
-                    },
-                    {
-                        "role": "user",
-                        "content": (
-                            f"Article Title: {article.title}\n\n"
-                            f"Article Content: {article.content}\n\n"
-                            f"URL: {article.url}\n\n"
-                            "Create a viral tweet that will maximize engagement. Include the URL."
-                        )
-                    }
-                ]
-
-                tweet_text = await chat_client.chat(messages)
-                if tweet_text and await twitter_bot.post_tweet(tweet_text):
-                    await post_history.add_posted(article)
-                    logger.info(f"Successfully posted tweet for article: {article.title}")
-                    return True  # Return after first successful tweet
+                # Determine if content should be a thread based on length and complexity
+                should_thread = _should_create_thread(article.content)
                 
+                if should_thread:
+                    # Generate thread content
+                    thread_content = await chat_client.chat(
+                        prompt_manager.get_thread_prompt(
+                            article.title,
+                            article.content,
+                            article.url
+                        )
+                    )
+                    
+                    if thread_content:
+                        # Parse the AI response into thread parts
+                        thread_parts = thread_generator.parse_ai_response(thread_content)
+                        if await twitter_bot.post_thread(thread_parts):
+                            await post_history.add_posted(article)
+                            logger.info(f"Successfully posted thread for article: {article.title}")
+                            return True
+                else:
+                    # Generate single tweet
+                    tweet_text = await chat_client.chat(
+                        prompt_manager.get_single_tweet_prompt(
+                            article.title,
+                            article.content,
+                            article.url
+                        )
+                    )
+                    
+                    if tweet_text and await twitter_bot.post_tweet(tweet_text):
+                        await post_history.add_posted(article)
+                        logger.info(f"Successfully posted tweet for article: {article.title}")
+                        return True
+        
         return False
 
     except Exception as e:
         logger.error(f"Error processing feed {feed_url}: {str(e)}")
         return False
+
+def _should_create_thread(content: str) -> bool:
+    """Determine if content should be a thread based on length and complexity."""
+    # Basic heuristic - can be expanded based on your needs
+    word_count = len(content.split())
+    has_complex_content = any(indicator in content.lower() for indicator in [
+        "research",
+        "study",
+        "analysis",
+        "findings",
+        "methodology",
+        "results show",
+        "according to"
+    ])
+    
+    return word_count > 100 or has_complex_content
 
 
 async def main():

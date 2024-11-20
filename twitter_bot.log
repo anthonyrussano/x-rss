@@ -10668,3 +10668,32 @@ What features do YOU want in Python 3.14? Share your thoughts! 💬
 2024-11-20 09:19:36,363 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-20 09:19:36,363 - __main__ - INFO - Closing RSS manager...
 2024-11-20 09:19:36,363 - __main__ - INFO - RSS manager closed
+2024-11-20 10:19:20,494 - __main__ - INFO - Starting RSS feed processing...
+2024-11-20 10:19:20,494 - __main__ - INFO - Loading credentials...
+2024-11-20 10:19:20,495 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-20 10:19:20,495 - __main__ - INFO - Initializing components...
+2024-11-20 10:19:20,496 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-20 10:19:20,497 - __main__ - INFO - All components initialized successfully
+2024-11-20 10:19:20,497 - __main__ - INFO - Cleaning up old history entries...
+2024-11-20 10:19:20,497 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-20 10:19:20,497 - __main__ - INFO - Processing feed: https://blogs.loc.gov/preservation/feed/
+2024-11-20 10:19:20,833 - rss_manager - INFO - Fetched 10 articles from https://blogs.loc.gov/preservation/feed/.
+2024-11-20 10:19:20,833 - __main__ - INFO - Processing feed: https://blogs.loc.gov/loc/feed/
+2024-11-20 10:19:21,071 - rss_manager - INFO - Fetched 10 articles from https://blogs.loc.gov/loc/feed/.
+2024-11-20 10:19:21,071 - __main__ - INFO - Processing feed: https://blogs.loc.gov/manuscripts/feed/
+2024-11-20 10:19:21,140 - rss_manager - INFO - Fetched 10 articles from https://blogs.loc.gov/manuscripts/feed/.
+2024-11-20 10:19:21,140 - __main__ - INFO - Processing feed: https://analytixon.com/feed/
+2024-11-20 10:19:31,171 - rss_manager - ERROR - Error fetching feed https://analytixon.com/feed/: Cannot connect to host analytixon.com:443 ssl:default [Name or service not known]
+2024-11-20 10:19:31,171 - __main__ - INFO - Processing feed: https://aws.amazon.com/blogs/devops/feed/
+2024-11-20 10:19:31,538 - rss_manager - INFO - Fetched 20 articles from https://aws.amazon.com/blogs/devops/feed/.
+2024-11-20 10:19:35,674 - twitter_bot - INFO - Successfully posted tweet: 🤖 **Amazon Q Developer just got smarter!** Now with expanded resource awareness and integration with AWS Chatbot on Microsoft Teams & Slack. 🚀
+
+What's the coolest thing you've done with Amazon Q Developer? Share your experiences! 👇
+
+#AmazonQ #AWS #TechLife
+
+[Tweet by @AWS]🔗: https://aws.amazon.com/blogs/devops/expanded-resource-awareness-in-amazon-q-developer/
+2024-11-20 10:19:35,675 - __main__ - INFO - Successfully posted tweet for article: Expanded resource awareness in Amazon Q Developer
+2024-11-20 10:19:35,675 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-20 10:19:35,675 - __main__ - INFO - Closing RSS manager...
+2024-11-20 10:19:35,675 - __main__ - INFO - RSS manager closed

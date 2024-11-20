@@ -10520,3 +10520,30 @@ Check it out here: https://github.blog/news-insights/company-news/announcing-git
 2024-11-20 05:17:44,556 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-20 05:17:44,556 - __main__ - INFO - Closing RSS manager...
 2024-11-20 05:17:44,557 - __main__ - INFO - RSS manager closed
+2024-11-20 06:26:17,419 - __main__ - INFO - Starting RSS feed processing...
+2024-11-20 06:26:17,419 - __main__ - INFO - Loading credentials...
+2024-11-20 06:26:17,419 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-20 06:26:17,419 - __main__ - INFO - Initializing components...
+2024-11-20 06:26:17,421 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-20 06:26:17,421 - __main__ - INFO - All components initialized successfully
+2024-11-20 06:26:17,421 - __main__ - INFO - Cleaning up old history entries...
+2024-11-20 06:26:17,422 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-20 06:26:17,422 - __main__ - INFO - Processing feed: http://blogs.loc.gov/ofthepeople/feed/
+2024-11-20 06:26:17,993 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/ofthepeople/feed/.
+2024-11-20 06:26:17,993 - __main__ - INFO - Processing feed: https://www.nature.com/nchembio.rss
+2024-11-20 06:26:18,204 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/nchembio.rss.
+2024-11-20 06:26:18,204 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCFNoGF7Ea-FfmAjfK4ReFpA
+2024-11-20 06:26:18,359 - rss_manager - ERROR - Error fetching feed https://www.youtube.com/feeds/videos.xml?channel_id=UCFNoGF7Ea-FfmAjfK4ReFpA: 404, message='Not Found', url='https://www.youtube.com/feeds/videos.xml?channel_id=UCFNoGF7Ea-FfmAjfK4ReFpA'
+2024-11-20 06:26:18,359 - __main__ - INFO - Processing feed: http://blogs.loc.gov/folklife/feed/
+2024-11-20 06:26:18,767 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/folklife/feed/.
+2024-11-20 06:26:18,767 - __main__ - INFO - Processing feed: https://www.nature.com/nrmicro.rss
+2024-11-20 06:26:18,777 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/nrmicro.rss.
+2024-11-20 06:26:18,777 - __main__ - INFO - Processing feed: http://www.loc.gov/rss/law/reports.xml
+2024-11-20 06:26:18,959 - rss_manager - INFO - Fetched 25 articles from http://www.loc.gov/rss/law/reports.xml.
+2024-11-20 06:26:18,959 - __main__ - INFO - Processing feed: https://www.congress.gov/rss/most-viewed-bills.xml
+2024-11-20 06:26:19,005 - rss_manager - INFO - Fetched 1 articles from https://www.congress.gov/rss/most-viewed-bills.xml.
+2024-11-20 06:26:20,878 - twitter_bot - INFO - Successfully posted tweet: Curious about what's hot in Congress? Check out the top 10 most-viewed bills this week, from social security fairness to stopping terror financing. 🇺🇸📜 #Congress #Legislation https://www.congress.gov/most-viewed-bills
+2024-11-20 06:26:20,879 - __main__ - INFO - Successfully posted tweet for article: Most-Viewed Bills - Week of November 17, 2024
+2024-11-20 06:26:20,879 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-20 06:26:20,879 - __main__ - INFO - Closing RSS manager...
+2024-11-20 06:26:20,879 - __main__ - INFO - RSS manager closed

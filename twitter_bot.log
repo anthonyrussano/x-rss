@@ -13398,3 +13398,24 @@ Is this the key to unlocking tailored treatments for everyone? 👀👉 Check it
 2024-11-20 21:17:13,379 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-20 21:17:13,379 - __main__ - INFO - Closing RSS manager...
 2024-11-20 21:17:13,379 - __main__ - INFO - RSS manager closed
+2024-11-20 22:17:14,242 - __main__ - INFO - Starting RSS feed processing...
+2024-11-20 22:17:14,242 - __main__ - INFO - Loading credentials...
+2024-11-20 22:17:14,242 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-20 22:17:14,242 - __main__ - INFO - Initializing components...
+2024-11-20 22:17:14,244 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-20 22:17:14,244 - __main__ - INFO - All components initialized successfully
+2024-11-20 22:17:14,244 - __main__ - INFO - Cleaning up old history entries...
+2024-11-20 22:17:14,245 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-20 22:17:14,245 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-viii.rss
+2024-11-20 22:17:22,446 - rss_manager - INFO - Fetched 25 articles from https://www.fema.gov/news/news_region-viii.rss.
+2024-11-20 22:17:22,446 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCGWZY-0pONnKmF98dhZy9CQ
+2024-11-20 22:17:22,472 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCGWZY-0pONnKmF98dhZy9CQ.
+2024-11-20 22:17:22,472 - __main__ - INFO - Processing feed: https://www.r-bloggers.com/feed/
+2024-11-20 22:17:22,895 - rss_manager - INFO - Fetched 25 articles from https://www.r-bloggers.com/feed/.
+2024-11-20 22:17:25,539 - twitter_bot - INFO - Successfully posted tweet: 🧐 Ever debated dropping a variable from your regression model? Here's a game-changer for #DataScience enthusiasts! 🧮 Learn how the **Wald Test** can revolutionize your analysis in R! 🔍 #RStats #StatsTwitter
+
+How to Perform a Wald Test in R: 📊👉 https://www.r-bloggers.com/2024/11/how-to-perform-a-wald-test-in-r-wald-test-function-in-r/ @Rbloggers
+2024-11-20 22:17:25,540 - __main__ - INFO - Successfully posted tweet for article: How to Perform a Wald Test in R | wald.test function in R
+2024-11-20 22:17:25,540 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-20 22:17:25,540 - __main__ - INFO - Closing RSS manager...
+2024-11-20 22:17:25,540 - __main__ - INFO - RSS manager closed

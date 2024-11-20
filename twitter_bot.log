@@ -10499,3 +10499,24 @@ Check it out here: https://github.blog/news-insights/company-news/announcing-git
 2024-11-20 04:22:14,487 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-20 04:22:14,487 - __main__ - INFO - Closing RSS manager...
 2024-11-20 04:22:14,488 - __main__ - INFO - RSS manager closed
+2024-11-20 05:17:41,145 - __main__ - INFO - Starting RSS feed processing...
+2024-11-20 05:17:41,145 - __main__ - INFO - Loading credentials...
+2024-11-20 05:17:41,145 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-20 05:17:41,146 - __main__ - INFO - Initializing components...
+2024-11-20 05:17:41,147 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-20 05:17:41,147 - __main__ - INFO - All components initialized successfully
+2024-11-20 05:17:41,147 - __main__ - INFO - Cleaning up old history entries...
+2024-11-20 05:17:41,148 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-20 05:17:41,148 - __main__ - INFO - Processing feed: https://feeds.feedburner.com/oreilly/newbooks
+2024-11-20 05:17:41,326 - rss_manager - WARNING - No entries found in feed: https://feeds.feedburner.com/oreilly/newbooks
+2024-11-20 05:17:41,326 - __main__ - INFO - Processing feed: https://cprss.s3.amazonaws.com/javascriptweekly.com.xml
+2024-11-20 05:17:41,895 - rss_manager - INFO - Fetched 4 articles from https://cprss.s3.amazonaws.com/javascriptweekly.com.xml.
+2024-11-20 05:17:41,895 - __main__ - INFO - Processing feed: https://www.cisa.gov/uscert/ics/monitors/monitors.xml
+2024-11-20 05:17:42,144 - rss_manager - ERROR - Error fetching feed https://www.cisa.gov/uscert/ics/monitors/monitors.xml: 404, message='Not Found', url='https://www.cisa.gov/uscert/ics/monitors/monitors.xml'
+2024-11-20 05:17:42,144 - __main__ - INFO - Processing feed: https://glennsqlperformance.com/feed/
+2024-11-20 05:17:42,225 - rss_manager - INFO - Fetched 10 articles from https://glennsqlperformance.com/feed/.
+2024-11-20 05:17:44,556 - twitter_bot - INFO - Successfully posted tweet: 📣 Just in! Microsoft has released SQL Server 2022 Cumulative Update 16 with 16 public fixes. Keep your database running smoothly. Check it out here: https://glennsqlperformance.com/2024/11/19/sql-server-2022-cumulative-update-16/ #SQLServer #DatabaseManagement #TechUpdates
+2024-11-20 05:17:44,556 - __main__ - INFO - Successfully posted tweet for article: SQL Server 2022 Cumulative Update 16
+2024-11-20 05:17:44,556 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-20 05:17:44,556 - __main__ - INFO - Closing RSS manager...
+2024-11-20 05:17:44,557 - __main__ - INFO - RSS manager closed

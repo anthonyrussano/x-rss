@@ -10564,3 +10564,44 @@ Check it out here: https://github.blog/news-insights/company-news/announcing-git
 2024-11-20 07:17:32,628 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-20 07:17:32,628 - __main__ - INFO - Closing RSS manager...
 2024-11-20 07:17:32,628 - __main__ - INFO - RSS manager closed
+2024-11-20 07:48:09,374 - __main__ - INFO - Starting RSS feed processing...
+2024-11-20 07:48:09,374 - __main__ - INFO - Loading credentials...
+2024-11-20 07:48:09,375 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-20 07:48:09,375 - __main__ - INFO - Initializing components...
+2024-11-20 07:48:09,376 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-20 07:48:09,376 - __main__ - INFO - All components initialized successfully
+2024-11-20 07:48:09,376 - __main__ - INFO - Cleaning up old history entries...
+2024-11-20 07:48:09,377 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-20 07:48:09,377 - __main__ - INFO - Processing feed: https://www.nature.com/npjscifood.rss
+2024-11-20 07:48:10,312 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/npjscifood.rss.
+2024-11-20 07:48:10,312 - __main__ - INFO - Processing feed: https://blog.google/technology/ai/rss/
+2024-11-20 07:48:33,062 - rss_manager - ERROR - Error fetching feed https://blog.google/technology/ai/rss/: 500, message='Internal Server Error', url='https://blog.google/technology/ai/rss/'
+2024-11-20 07:48:33,063 - __main__ - INFO - Processing feed: https://deepmind.google/blog/rss.xml
+2024-11-20 07:48:33,610 - rss_manager - INFO - Fetched 100 articles from https://deepmind.google/blog/rss.xml.
+2024-11-20 07:48:33,610 - __main__ - INFO - Processing feed: https://loc.gov/rss/copyright/crb.xml
+2024-11-20 07:48:33,965 - rss_manager - INFO - Fetched 25 articles from https://loc.gov/rss/copyright/crb.xml.
+2024-11-20 07:48:33,965 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCSXwxpWZQ7XZ1WL3wqevChA
+2024-11-20 07:48:34,191 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCSXwxpWZQ7XZ1WL3wqevChA.
+2024-11-20 07:48:34,191 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCKILJTZISRLxQmiUgwg94Hw
+2024-11-20 07:48:34,229 - rss_manager - ERROR - Error fetching feed https://www.youtube.com/feeds/videos.xml?channel_id=UCKILJTZISRLxQmiUgwg94Hw: 404, message='Not Found', url='https://www.youtube.com/feeds/videos.xml?channel_id=UCKILJTZISRLxQmiUgwg94Hw'
+2024-11-20 07:48:34,229 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=UbuntuOnAir
+2024-11-20 07:48:34,359 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=UbuntuOnAir.
+2024-11-20 07:48:34,359 - __main__ - INFO - Processing feed: https://www.databricks.com/feed
+2024-11-20 07:48:34,514 - rss_manager - INFO - Fetched 25 articles from https://www.databricks.com/feed.
+2024-11-20 07:48:34,514 - __main__ - INFO - Processing feed: https://grafana.com/blog/index.xml
+2024-11-20 07:48:34,592 - rss_manager - INFO - Fetched 10 articles from https://grafana.com/blog/index.xml.
+2024-11-20 07:48:34,592 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=ServeTheHomeVideo
+2024-11-20 07:48:34,655 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=ServeTheHomeVideo.
+2024-11-20 07:48:34,656 - __main__ - INFO - Processing feed: https://faun.pub/feed
+2024-11-20 07:48:34,959 - rss_manager - INFO - Fetched 10 articles from https://faun.pub/feed.
+2024-11-20 07:48:39,818 - twitter_bot - INFO - Successfully posted tweet: **Here's a thought-provoking tweet to spark discussion and engagement:**
+
+Is Kubernetes the ultimate platform for AI? 🧠☁️ With #KubeCon 2024 focusing on AI at scale, should we all be preparing for a future where our AI workloads live in the cloud native universe? 🤔 #AIonKubernetes #CloudNative
+
+Check out the insights here: [URL](https://faun.pub/kubecon-2024-the-cloud-native-universe-is-evolving-around-ai-4777cd5dacb9?source=rss----10d1a7495d39---4) 🔍
+
+@OpenAI @LinuxFoundation @KubeCon what's your take? 🌐✨
+2024-11-20 07:48:39,819 - __main__ - INFO - Successfully posted tweet for article: KubeCon 2024: The Cloud Native Universe Is Evolving Around AI
+2024-11-20 07:48:39,819 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-20 07:48:39,819 - __main__ - INFO - Closing RSS manager...
+2024-11-20 07:48:39,820 - __main__ - INFO - RSS manager closed

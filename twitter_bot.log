@@ -13249,3 +13249,47 @@ https://www.youtube.com/watch?v=9zo5IOypxn0
 2024-11-20 16:44:07,498 - __main__ - WARNING - No suitable articles found across all feeds.
 2024-11-20 16:44:07,498 - __main__ - INFO - Closing RSS manager...
 2024-11-20 16:44:07,499 - __main__ - INFO - RSS manager closed
+2024-11-20 17:16:10,935 - __main__ - INFO - Starting RSS feed processing...
+2024-11-20 17:16:10,935 - __main__ - INFO - Loading credentials...
+2024-11-20 17:16:10,935 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-20 17:16:10,936 - __main__ - INFO - Initializing components...
+2024-11-20 17:16:10,937 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-20 17:16:10,937 - __main__ - INFO - All components initialized successfully
+2024-11-20 17:16:10,937 - __main__ - INFO - Cleaning up old history entries...
+2024-11-20 17:16:10,938 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-20 17:16:10,938 - __main__ - INFO - Processing feed: https://www.dynatrace.com/news/feed/
+2024-11-20 17:16:11,244 - rss_manager - INFO - Fetched 24 articles from https://www.dynatrace.com/news/feed/.
+2024-11-20 17:16:13,883 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 17:16:15,973 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 17:16:15,973 - __main__ - INFO - Processing feed: https://www.ansible.com/blog/rss.xml
+2024-11-20 17:16:16,381 - rss_manager - INFO - Fetched 10 articles from https://www.ansible.com/blog/rss.xml.
+2024-11-20 17:16:16,381 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UC2Dhyn4Ev52YSbcpfnfP0Mw
+2024-11-20 17:16:16,569 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UC2Dhyn4Ev52YSbcpfnfP0Mw.
+2024-11-20 17:16:16,569 - __main__ - INFO - Processing feed: https://www.nature.com/npjscifood.rss
+2024-11-20 17:16:16,646 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/npjscifood.rss.
+2024-11-20 17:16:16,646 - __main__ - INFO - Processing feed: http://blogs.loc.gov/folklife/feed/
+2024-11-20 17:16:17,100 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/folklife/feed/.
+2024-11-20 17:16:17,100 - __main__ - INFO - Processing feed: https://www.congress.gov/rss/notification.xml
+2024-11-20 17:16:17,216 - rss_manager - INFO - Fetched 25 articles from https://www.congress.gov/rss/notification.xml.
+2024-11-20 17:16:17,216 - __main__ - INFO - Processing feed: https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=9&Site=945&max=10
+2024-11-20 17:16:17,367 - rss_manager - INFO - Fetched 10 articles from https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=9&Site=945&max=10.
+2024-11-20 17:16:19,208 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 17:16:20,623 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 17:16:22,647 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 17:16:22,647 - __main__ - INFO - Processing feed: https://blog.finxter.com/feed/
+2024-11-20 17:16:22,945 - rss_manager - INFO - Fetched 10 articles from https://blog.finxter.com/feed/.
+2024-11-20 17:16:22,946 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-vii.rss
+2024-11-20 17:16:32,109 - rss_manager - INFO - Fetched 25 articles from https://www.fema.gov/news/news_region-vii.rss.
+2024-11-20 17:16:32,109 - __main__ - INFO - Processing feed: https://feed.podbean.com/thegarynullshow/feed.xml
+2024-11-20 17:16:32,288 - rss_manager - INFO - Fetched 100 articles from https://feed.podbean.com/thegarynullshow/feed.xml.
+2024-11-20 17:16:35,624 - twitter_bot - INFO - Successfully posted tweet: 🧠🚫5G Fears: Russian Study Shows Brain Changes in Rats! Should We Be Worried? 
+
+🔍Scientists at Tomsk State University found changes in brain tissue of rats exposed to #5G radiation. Does this mean humans are next? 
+
+🐀What do you think? Is 5G safe or a hidden danger? #HealthTech #ScienceDebate
+
+🔗Read more: https://thegarynullshow.podbean.com/e/the-gary-null-show-111924/ @TomskStateU @WHO
+2024-11-20 17:16:35,624 - __main__ - INFO - Successfully posted tweet for article: The Gary Null Show 11.19.24
+2024-11-20 17:16:35,625 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-20 17:16:35,625 - __main__ - INFO - Closing RSS manager...
+2024-11-20 17:16:35,626 - __main__ - INFO - RSS manager closed

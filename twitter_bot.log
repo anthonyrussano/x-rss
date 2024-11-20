@@ -10482,3 +10482,20 @@ Read more: https://www.jeffgeerling.com/blog/2024/llms-accelerated-egpu-on-raspb
 2024-11-20 03:28:56,440 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-20 03:28:56,440 - __main__ - INFO - Closing RSS manager...
 2024-11-20 03:28:56,440 - __main__ - INFO - RSS manager closed
+2024-11-20 04:22:11,885 - __main__ - INFO - Starting RSS feed processing...
+2024-11-20 04:22:11,885 - __main__ - INFO - Loading credentials...
+2024-11-20 04:22:11,885 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-20 04:22:11,885 - __main__ - INFO - Initializing components...
+2024-11-20 04:22:11,887 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-20 04:22:11,887 - __main__ - INFO - All components initialized successfully
+2024-11-20 04:22:11,887 - __main__ - INFO - Cleaning up old history entries...
+2024-11-20 04:22:11,888 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-20 04:22:11,888 - __main__ - INFO - Processing feed: https://github.blog/feed/
+2024-11-20 04:22:12,128 - rss_manager - INFO - Fetched 10 articles from https://github.blog/feed/.
+2024-11-20 04:22:14,487 - twitter_bot - INFO - Successfully posted tweet: 🔒 Exciting news for open source security! GitHub has launched the **Secure Open Source Fund** to fortify the open source ecosystem. Apply now for a chance to get funding in early 2025! 🔐
+
+Check it out here: https://github.blog/news-insights/company-news/announcing-github-secure-open-source-fund/ #GitHub #OpenSource #CyberSecurity
+2024-11-20 04:22:14,487 - __main__ - INFO - Successfully posted tweet for article: Announcing GitHub Secure Open Source Fund: Help secure the open source ecosystem for everyone
+2024-11-20 04:22:14,487 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-20 04:22:14,487 - __main__ - INFO - Closing RSS manager...
+2024-11-20 04:22:14,488 - __main__ - INFO - RSS manager closed

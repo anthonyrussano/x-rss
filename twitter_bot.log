@@ -13293,3 +13293,28 @@ https://www.youtube.com/watch?v=9zo5IOypxn0
 2024-11-20 17:16:35,625 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-20 17:16:35,625 - __main__ - INFO - Closing RSS manager...
 2024-11-20 17:16:35,626 - __main__ - INFO - RSS manager closed
+2024-11-20 18:25:21,951 - __main__ - INFO - Starting RSS feed processing...
+2024-11-20 18:25:21,951 - __main__ - INFO - Loading credentials...
+2024-11-20 18:25:21,951 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-20 18:25:21,952 - __main__ - INFO - Initializing components...
+2024-11-20 18:25:21,953 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-20 18:25:21,953 - __main__ - INFO - All components initialized successfully
+2024-11-20 18:25:21,954 - __main__ - INFO - Cleaning up old history entries...
+2024-11-20 18:25:21,954 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-20 18:25:21,954 - __main__ - INFO - Processing feed: https://www.splunk.com/blog/feed/
+2024-11-20 18:25:22,158 - rss_manager - ERROR - Error fetching feed https://www.splunk.com/blog/feed/: 404, message='Not Found', url='https://www.splunk.com/blog/feed/'
+2024-11-20 18:25:22,158 - __main__ - INFO - Processing feed: https://blog.finxter.com/feed/
+2024-11-20 18:25:22,794 - rss_manager - INFO - Fetched 10 articles from https://blog.finxter.com/feed/.
+2024-11-20 18:25:22,794 - __main__ - INFO - Processing feed: https://www.r-bloggers.com/feed/
+2024-11-20 18:25:23,494 - rss_manager - INFO - Fetched 25 articles from https://www.r-bloggers.com/feed/.
+2024-11-20 18:25:26,209 - twitter_bot - INFO - Successfully posted tweet: 🌐 Calling all #DataScientists & #Researchers! 📣 Ready to supercharge your network on Bluesky? 🚀 Here’s how to expand your reach with R! 🤖 #RStats
+
+👉 Check out this game-changing guide: https://www.r-bloggers.com/2024/11/expand-your-bluesky-network-with-r-repost/
+
+🔥 Do you think R can revolutionize networking on social platforms? Let's discuss! 🧵
+
+@rstats @BlueskySocial
+2024-11-20 18:25:26,209 - __main__ - INFO - Successfully posted tweet for article: Expand your Bluesky network with R (repost)
+2024-11-20 18:25:26,209 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-20 18:25:26,209 - __main__ - INFO - Closing RSS manager...
+2024-11-20 18:25:26,210 - __main__ - INFO - RSS manager closed

@@ -12378,3 +12378,874 @@ https://www.youtube.com/watch?v=9zo5IOypxn0
 2024-11-20 15:37:14,915 - __main__ - WARNING - No suitable articles found across all feeds.
 2024-11-20 15:37:14,915 - __main__ - INFO - Closing RSS manager...
 2024-11-20 15:37:14,916 - __main__ - INFO - RSS manager closed
+2024-11-20 16:23:18,057 - __main__ - INFO - Starting RSS feed processing...
+2024-11-20 16:23:18,057 - __main__ - INFO - Loading credentials...
+2024-11-20 16:23:18,058 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-20 16:23:18,058 - __main__ - INFO - Initializing components...
+2024-11-20 16:23:18,059 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-20 16:23:18,059 - __main__ - INFO - All components initialized successfully
+2024-11-20 16:23:18,060 - __main__ - INFO - Cleaning up old history entries...
+2024-11-20 16:23:18,060 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-20 16:23:18,060 - __main__ - INFO - Processing feed: https://feed.podbean.com/omfif/feed.xml
+2024-11-20 16:23:18,218 - rss_manager - INFO - Fetched 100 articles from https://feed.podbean.com/omfif/feed.xml.
+2024-11-20 16:23:18,218 - __main__ - INFO - Processing feed: https://www.loc.gov/rss/events/rare-book-news-and-events/feed.xml
+2024-11-20 16:23:18,445 - rss_manager - INFO - Fetched 25 articles from https://www.loc.gov/rss/events/rare-book-news-and-events/feed.xml.
+2024-11-20 16:23:18,445 - __main__ - INFO - Processing feed: http://blogs.loc.gov/international-collections/feed/
+2024-11-20 16:23:18,830 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/international-collections/feed/.
+2024-11-20 16:23:18,830 - __main__ - INFO - Processing feed: https://aws.amazon.com/blogs/devops/feed/
+2024-11-20 16:23:19,161 - rss_manager - INFO - Fetched 20 articles from https://aws.amazon.com/blogs/devops/feed/.
+2024-11-20 16:23:19,162 - __main__ - INFO - Processing feed: https://www.federalregister.gov/api/v1/documents.rss
+2024-11-20 16:23:19,253 - rss_manager - INFO - Fetched 200 articles from https://www.federalregister.gov/api/v1/documents.rss.
+2024-11-20 16:23:22,838 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:23:25,495 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:23:28,023 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:23:29,800 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:23:32,077 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:23:34,784 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:23:37,343 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:23:40,120 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:23:43,578 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:23:46,159 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:23:49,182 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:23:51,111 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:23:53,747 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:23:55,215 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:23:58,326 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:00,977 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:03,633 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:06,735 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:08,981 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:10,761 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:13,148 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:16,024 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:19,272 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:24,273 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:26,802 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:30,159 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:34,675 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:37,981 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:40,012 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:42,719 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:45,318 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:52,557 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:54,143 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:56,514 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:24:59,656 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:01,660 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:04,125 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:05,713 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:08,715 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:11,719 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:14,910 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:18,381 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:20,912 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:23,203 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:26,623 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:29,176 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:31,417 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:35,170 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:45,571 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:48,503 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:51,606 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:54,212 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:25:58,791 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:00,565 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:02,869 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:04,968 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:06,678 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:08,474 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:12,389 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:13,823 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:16,463 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:18,249 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:21,205 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:23,865 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:26,476 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:28,880 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:31,714 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:34,151 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:38,816 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:41,603 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:45,869 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:48,121 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:51,147 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:54,378 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:57,176 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:26:59,574 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:02,813 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:04,236 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:08,009 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:11,242 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:14,434 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:16,524 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:18,361 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:21,129 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:22,703 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:25,731 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:28,280 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:30,755 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:32,625 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:35,182 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:36,929 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:38,972 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:41,585 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:44,133 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:46,676 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:49,343 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:51,991 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:54,805 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:56,447 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:27:57,992 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:00,986 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:03,216 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:04,808 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:07,372 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:09,597 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:12,310 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:14,799 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:17,713 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:20,128 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:22,872 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:26,132 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:28,480 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:30,178 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:33,208 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:36,011 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:38,612 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:40,979 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:43,397 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:45,226 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:48,443 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:50,792 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:52,323 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:53,791 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:56,530 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:57,962 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:28:59,847 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:02,022 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:04,549 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:07,094 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:09,753 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:11,061 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:12,711 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:15,747 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:19,201 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:21,250 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:23,801 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:26,600 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:28,569 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:31,595 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:34,923 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:38,368 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:39,782 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:43,626 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:46,566 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:49,268 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:52,186 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:54,522 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:29:57,374 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:00,478 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:02,807 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:04,851 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:07,256 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:08,654 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:11,499 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:14,699 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:17,584 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:20,426 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:20,426 - __main__ - INFO - Processing feed: https://www.nature.com/nchembio.rss
+2024-11-20 16:30:20,472 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/nchembio.rss.
+2024-11-20 16:30:20,472 - __main__ - INFO - Processing feed: https://www.redhat.com/en/rss/blog/channel/devops-and-devsecops
+2024-11-20 16:30:20,595 - rss_manager - INFO - Fetched 10 articles from https://www.redhat.com/en/rss/blog/channel/devops-and-devsecops.
+2024-11-20 16:30:20,595 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=AWSwebinars
+2024-11-20 16:30:21,217 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=AWSwebinars.
+2024-11-20 16:30:21,217 - __main__ - INFO - Processing feed: https://www.nature.com/npjregenmed.rss
+2024-11-20 16:30:21,235 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/npjregenmed.rss.
+2024-11-20 16:30:21,235 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCdngmbVKX1Tgre699-XLlUA
+2024-11-20 16:30:21,255 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCdngmbVKX1Tgre699-XLlUA.
+2024-11-20 16:30:21,255 - __main__ - INFO - Processing feed: https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=11&Site=945&max=10
+2024-11-20 16:30:21,724 - rss_manager - INFO - Fetched 10 articles from https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=11&Site=945&max=10.
+2024-11-20 16:30:21,724 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UC-AdvAxaagE9W2f0webyNUQ
+2024-11-20 16:30:21,862 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UC-AdvAxaagE9W2f0webyNUQ.
+2024-11-20 16:30:24,010 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:24,010 - __main__ - INFO - Processing feed: https://www.fluentd.org/blog/feed.rss
+2024-11-20 16:30:24,212 - rss_manager - INFO - Fetched 10 articles from https://www.fluentd.org/blog/feed.rss.
+2024-11-20 16:30:24,212 - __main__ - INFO - Processing feed: https://airflow.apache.org/blog/index.xml
+2024-11-20 16:30:24,415 - rss_manager - INFO - Fetched 28 articles from https://airflow.apache.org/blog/index.xml.
+2024-11-20 16:30:24,416 - __main__ - INFO - Processing feed: https://feeds.buzzsprout.com/186154.rss
+2024-11-20 16:30:25,043 - rss_manager - INFO - Fetched 264 articles from https://feeds.buzzsprout.com/186154.rss.
+2024-11-20 16:30:25,044 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-vi.rss
+2024-11-20 16:30:34,512 - rss_manager - INFO - Fetched 25 articles from https://www.fema.gov/news/news_region-vi.rss.
+2024-11-20 16:30:38,236 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:38,236 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCFNoGF7Ea-FfmAjfK4ReFpA
+2024-11-20 16:30:38,373 - rss_manager - ERROR - Error fetching feed https://www.youtube.com/feeds/videos.xml?channel_id=UCFNoGF7Ea-FfmAjfK4ReFpA: 404, message='Not Found', url='https://www.youtube.com/feeds/videos.xml?channel_id=UCFNoGF7Ea-FfmAjfK4ReFpA'
+2024-11-20 16:30:38,373 - __main__ - INFO - Processing feed: https://blog.palantir.com/feed
+2024-11-20 16:30:38,643 - rss_manager - INFO - Fetched 10 articles from https://blog.palantir.com/feed.
+2024-11-20 16:30:38,643 - __main__ - INFO - Processing feed: https://libgen.rs/rss/index.php
+2024-11-20 16:30:38,760 - rss_manager - ERROR - Error fetching feed https://libgen.rs/rss/index.php: Cannot connect to host libgen.rs:443 ssl:default [Name or service not known]
+2024-11-20 16:30:38,760 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=marketplacevideos
+2024-11-20 16:30:38,833 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=marketplacevideos.
+2024-11-20 16:30:38,833 - __main__ - INFO - Processing feed: https://feeds.feedburner.com/PythonSoftwareFoundationNews
+2024-11-20 16:30:39,034 - rss_manager - INFO - Fetched 25 articles from https://feeds.feedburner.com/PythonSoftwareFoundationNews.
+2024-11-20 16:30:39,034 - __main__ - INFO - Processing feed: https://www.androidpolice.com/feed/
+2024-11-20 16:30:39,090 - rss_manager - INFO - Fetched 8 articles from https://www.androidpolice.com/feed/.
+2024-11-20 16:30:41,317 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:42,916 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:45,063 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:47,984 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:50,596 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:52,828 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:55,309 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:57,553 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:30:57,553 - __main__ - INFO - Processing feed: https://www.nature.com/nmat.rss
+2024-11-20 16:30:57,574 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/nmat.rss.
+2024-11-20 16:30:57,575 - __main__ - INFO - Processing feed: https://cprss.s3.amazonaws.com/javascriptweekly.com.xml
+2024-11-20 16:30:58,012 - rss_manager - INFO - Fetched 4 articles from https://cprss.s3.amazonaws.com/javascriptweekly.com.xml.
+2024-11-20 16:30:58,012 - __main__ - INFO - Processing feed: https://www.cisa.gov/uscert/ncas/bulletins.xml
+2024-11-20 16:31:03,032 - rss_manager - INFO - Fetched 10 articles from https://www.cisa.gov/uscert/ncas/bulletins.xml.
+2024-11-20 16:31:03,033 - __main__ - INFO - Processing feed: http://blogs.loc.gov/folklife/feed/
+2024-11-20 16:31:03,505 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/folklife/feed/.
+2024-11-20 16:31:03,505 - __main__ - INFO - Processing feed: https://www.nature.com/nutd.rss
+2024-11-20 16:31:03,516 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/nutd.rss.
+2024-11-20 16:31:03,516 - __main__ - INFO - Processing feed: https://www.loc.gov/rss/pao/web.xml
+2024-11-20 16:31:03,712 - rss_manager - INFO - Fetched 25 articles from https://www.loc.gov/rss/pao/web.xml.
+2024-11-20 16:31:03,713 - __main__ - INFO - Processing feed: https://blogs.loc.gov/manuscripts/feed/
+2024-11-20 16:31:03,764 - rss_manager - INFO - Fetched 10 articles from https://blogs.loc.gov/manuscripts/feed/.
+2024-11-20 16:31:03,764 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCKILJTZISRLxQmiUgwg94Hw
+2024-11-20 16:31:03,812 - rss_manager - ERROR - Error fetching feed https://www.youtube.com/feeds/videos.xml?channel_id=UCKILJTZISRLxQmiUgwg94Hw: 404, message='Not Found', url='https://www.youtube.com/feeds/videos.xml?channel_id=UCKILJTZISRLxQmiUgwg94Hw'
+2024-11-20 16:31:03,812 - __main__ - INFO - Processing feed: https://www.databasejournal.com/feed/
+2024-11-20 16:31:03,875 - rss_manager - INFO - Fetched 10 articles from https://www.databasejournal.com/feed/.
+2024-11-20 16:31:03,876 - __main__ - INFO - Processing feed: https://deepmind.google/blog/rss.xml
+2024-11-20 16:31:04,372 - rss_manager - INFO - Fetched 100 articles from https://deepmind.google/blog/rss.xml.
+2024-11-20 16:31:04,373 - __main__ - INFO - Processing feed: https://aws.amazon.com/blogs/big-data/feed/
+2024-11-20 16:31:04,659 - rss_manager - INFO - Fetched 20 articles from https://aws.amazon.com/blogs/big-data/feed/.
+2024-11-20 16:31:08,050 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:31:10,188 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:31:12,615 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:31:16,945 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:31:16,945 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-vii.rss
+2024-11-20 16:31:25,319 - rss_manager - INFO - Fetched 25 articles from https://www.fema.gov/news/news_region-vii.rss.
+2024-11-20 16:31:25,319 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=Mretaprime
+2024-11-20 16:31:25,480 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=Mretaprime.
+2024-11-20 16:31:27,662 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:31:27,662 - __main__ - INFO - Processing feed: https://blog.sqlauthority.com/feed/
+2024-11-20 16:31:28,369 - rss_manager - INFO - Fetched 5 articles from https://blog.sqlauthority.com/feed/.
+2024-11-20 16:31:28,370 - __main__ - INFO - Processing feed: https://blog.cloudflare.com/rss/
+2024-11-20 16:31:29,236 - rss_manager - INFO - Fetched 20 articles from https://blog.cloudflare.com/rss/.
+2024-11-20 16:31:33,979 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:31:35,833 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:31:35,833 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=UbuntuOnAir
+2024-11-20 16:31:35,898 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=UbuntuOnAir.
+2024-11-20 16:31:35,898 - __main__ - INFO - Processing feed: https://grafana.com/blog/index.xml
+2024-11-20 16:31:35,992 - rss_manager - INFO - Fetched 10 articles from https://grafana.com/blog/index.xml.
+2024-11-20 16:31:35,992 - __main__ - INFO - Processing feed: https://feeds.feedburner.com/oreilly/all
+2024-11-20 16:31:36,266 - rss_manager - WARNING - No entries found in feed: https://feeds.feedburner.com/oreilly/all
+2024-11-20 16:31:36,266 - __main__ - INFO - Processing feed: https://oag.ca.gov/news/feed
+2024-11-20 16:31:37,047 - rss_manager - INFO - Fetched 10 articles from https://oag.ca.gov/news/feed.
+2024-11-20 16:31:40,221 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:31:40,222 - __main__ - INFO - Processing feed: https://www.aba.com/rss/press
+2024-11-20 16:31:40,656 - rss_manager - INFO - Fetched 50 articles from https://www.aba.com/rss/press.
+2024-11-20 16:31:42,616 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:31:42,616 - __main__ - INFO - Processing feed: https://softwareengineeringdaily.com/feed/podcast/
+2024-11-20 16:31:43,055 - rss_manager - INFO - Fetched 100 articles from https://softwareengineeringdaily.com/feed/podcast/.
+2024-11-20 16:31:45,210 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:31:45,211 - __main__ - INFO - Processing feed: https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=400&Site=945&max=10
+2024-11-20 16:31:45,515 - rss_manager - INFO - Fetched 10 articles from https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=400&Site=945&max=10.
+2024-11-20 16:31:47,271 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:31:47,271 - __main__ - INFO - Processing feed: https://huggingface.co/blog/feed.xml
+2024-11-20 16:31:47,389 - rss_manager - INFO - Fetched 484 articles from https://huggingface.co/blog/feed.xml.
+2024-11-20 16:31:49,576 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:31:51,713 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:31:51,714 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-ix.rss
+2024-11-20 16:31:59,932 - rss_manager - INFO - Fetched 25 articles from https://www.fema.gov/news/news_region-ix.rss.
+2024-11-20 16:32:02,059 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:32:02,059 - __main__ - INFO - Processing feed: https://www.hashicorp.com/blog/products/terraform/feed.xml
+2024-11-20 16:32:02,216 - rss_manager - INFO - Fetched 20 articles from https://www.hashicorp.com/blog/products/terraform/feed.xml.
+2024-11-20 16:32:02,216 - __main__ - INFO - Processing feed: http://blogs.loc.gov/ofthepeople/feed/
+2024-11-20 16:32:02,565 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/ofthepeople/feed/.
+2024-11-20 16:32:05,668 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:32:05,668 - __main__ - INFO - Processing feed: https://about.gitlab.com/atom.xml
+2024-11-20 16:32:05,832 - rss_manager - INFO - Fetched 20 articles from https://about.gitlab.com/atom.xml.
+2024-11-20 16:32:08,910 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:32:08,910 - __main__ - INFO - Processing feed: https://www.jeffgeerling.com/blog.xml
+2024-11-20 16:32:08,967 - rss_manager - INFO - Fetched 10 articles from https://www.jeffgeerling.com/blog.xml.
+2024-11-20 16:32:08,967 - __main__ - INFO - Processing feed: https://www.loc.gov/rss/pao/news.xml
+2024-11-20 16:32:09,058 - rss_manager - INFO - Fetched 25 articles from https://www.loc.gov/rss/pao/news.xml.
+2024-11-20 16:32:09,058 - __main__ - INFO - Processing feed: https://www.cisa.gov/uscert/ics/alerts/alerts.xml
+2024-11-20 16:32:18,769 - rss_manager - ERROR - Error fetching feed https://www.cisa.gov/uscert/ics/alerts/alerts.xml: 404, message='Not Found', url='https://www.cisa.gov/uscert/ics/alerts/alerts.xml'
+2024-11-20 16:32:18,770 - __main__ - INFO - Processing feed: https://www.nist.gov/news-events/Advanced%20communications/rss.xml
+2024-11-20 16:32:18,839 - rss_manager - INFO - Fetched 40 articles from https://www.nist.gov/news-events/Advanced%20communications/rss.xml.
+2024-11-20 16:32:21,256 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:32:24,407 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:32:24,407 - __main__ - INFO - Processing feed: https://devblogs.microsoft.com/landingpage/
+2024-11-20 16:32:24,656 - rss_manager - INFO - Fetched 10 articles from https://devblogs.microsoft.com/landingpage/.
+2024-11-20 16:32:26,183 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:32:28,553 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:32:30,051 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:32:32,267 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:32:34,121 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:32:36,375 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:32:36,375 - __main__ - INFO - Processing feed: http://blogs.loc.gov/catbird/feed/
+2024-11-20 16:32:36,798 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/catbird/feed/.
+2024-11-20 16:32:36,798 - __main__ - INFO - Processing feed: https://www.uscourts.gov/news/rss
+2024-11-20 16:32:36,930 - rss_manager - INFO - Fetched 10 articles from https://www.uscourts.gov/news/rss.
+2024-11-20 16:32:36,930 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-ii.rss
+2024-11-20 16:32:45,178 - rss_manager - INFO - Fetched 25 articles from https://www.fema.gov/news/news_region-ii.rss.
+2024-11-20 16:32:47,079 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:32:47,079 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UC2Dhyn4Ev52YSbcpfnfP0Mw
+2024-11-20 16:32:47,150 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UC2Dhyn4Ev52YSbcpfnfP0Mw.
+2024-11-20 16:32:47,150 - __main__ - INFO - Processing feed: https://www.microsoft.com/en-us/research/feed/
+2024-11-20 16:32:47,399 - rss_manager - INFO - Fetched 10 articles from https://www.microsoft.com/en-us/research/feed/.
+2024-11-20 16:32:47,399 - __main__ - INFO - Processing feed: https://cloudblog.withgoogle.com/rss/
+2024-11-20 16:32:48,862 - rss_manager - INFO - Fetched 20 articles from https://cloudblog.withgoogle.com/rss/.
+2024-11-20 16:32:51,954 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:32:54,606 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:32:58,331 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:32:58,331 - __main__ - INFO - Processing feed: http://www.loc.gov/rss/law/reports.xml
+2024-11-20 16:32:58,416 - rss_manager - INFO - Fetched 25 articles from http://www.loc.gov/rss/law/reports.xml.
+2024-11-20 16:32:58,416 - __main__ - INFO - Processing feed: https://www.nature.com/nsmb.rss
+2024-11-20 16:32:58,442 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/nsmb.rss.
+2024-11-20 16:32:58,442 - __main__ - INFO - Processing feed: https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml
+2024-11-20 16:32:58,497 - rss_manager - INFO - Fetched 60 articles from https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml.
+2024-11-20 16:33:00,083 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:00,083 - __main__ - INFO - Processing feed: https://www.nature.com/npjsba.rss
+2024-11-20 16:33:00,093 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/npjsba.rss.
+2024-11-20 16:33:00,093 - __main__ - INFO - Processing feed: https://blog.jetbrains.com/pycharm/feed/
+2024-11-20 16:33:00,189 - rss_manager - INFO - Fetched 12 articles from https://blog.jetbrains.com/pycharm/feed/.
+2024-11-20 16:33:00,189 - __main__ - INFO - Processing feed: https://www.pulumi.com/blog/rss.xml
+2024-11-20 16:33:01,189 - rss_manager - INFO - Fetched 50 articles from https://www.pulumi.com/blog/rss.xml.
+2024-11-20 16:33:01,190 - __main__ - INFO - Processing feed: https://aws.amazon.com/about-aws/whats-new/recent/feed/
+2024-11-20 16:33:01,360 - rss_manager - INFO - Fetched 100 articles from https://aws.amazon.com/about-aws/whats-new/recent/feed/.
+2024-11-20 16:33:03,267 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:06,184 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:08,555 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:11,192 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:12,948 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:14,996 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:18,368 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:19,687 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:21,266 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:23,068 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:24,872 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:27,484 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:30,175 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:34,085 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:37,240 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:37,241 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=Bloomberg
+2024-11-20 16:33:37,307 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=Bloomberg.
+2024-11-20 16:33:39,235 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:39,236 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-i.rss
+2024-11-20 16:33:48,417 - rss_manager - INFO - Fetched 25 articles from https://www.fema.gov/news/news_region-i.rss.
+2024-11-20 16:33:50,894 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:33:50,894 - __main__ - INFO - Processing feed: https://www.nature.com/natfood.rss
+2024-11-20 16:33:50,919 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/natfood.rss.
+2024-11-20 16:33:50,919 - __main__ - INFO - Processing feed: https://kubernetes.io/feed.xml
+2024-11-20 16:33:51,395 - rss_manager - INFO - Fetched 50 articles from https://kubernetes.io/feed.xml.
+2024-11-20 16:33:51,395 - __main__ - INFO - Processing feed: https://planetpython.org/rss20.xml
+2024-11-20 16:33:51,796 - rss_manager - INFO - Fetched 25 articles from https://planetpython.org/rss20.xml.
+2024-11-20 16:33:55,300 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:34:00,812 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:34:00,813 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCFe9-V_rN9nLqVNiI8Yof3w
+2024-11-20 16:34:00,876 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCFe9-V_rN9nLqVNiI8Yof3w.
+2024-11-20 16:34:03,193 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:34:03,193 - __main__ - INFO - Processing feed: https://www.copyright.gov/rss/creativity.xml
+2024-11-20 16:34:03,374 - rss_manager - INFO - Fetched 25 articles from https://www.copyright.gov/rss/creativity.xml.
+2024-11-20 16:34:03,374 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=ScrippsHealth
+2024-11-20 16:34:03,431 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=ScrippsHealth.
+2024-11-20 16:34:03,431 - __main__ - INFO - Processing feed: https://www.splunk.com/blog/feed/
+2024-11-20 16:34:03,812 - rss_manager - ERROR - Error fetching feed https://www.splunk.com/blog/feed/: 404, message='Not Found', url='https://www.splunk.com/blog/feed/'
+2024-11-20 16:34:03,812 - __main__ - INFO - Processing feed: https://redis.com/feed/
+2024-11-20 16:34:04,375 - rss_manager - INFO - Fetched 12 articles from https://redis.com/feed/.
+2024-11-20 16:34:04,375 - __main__ - INFO - Processing feed: https://www.nature.com/natcardiovascres.rss
+2024-11-20 16:34:04,868 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/natcardiovascres.rss.
+2024-11-20 16:34:06,418 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:34:08,857 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:34:08,857 - __main__ - INFO - Processing feed: https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=9&Site=945&max=10
+2024-11-20 16:34:08,957 - rss_manager - INFO - Fetched 10 articles from https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=9&Site=945&max=10.
+2024-11-20 16:34:11,278 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:34:13,453 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:34:15,397 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:34:15,398 - __main__ - INFO - Processing feed: http://forums.rancher.com/c/announcements.rss
+2024-11-20 16:34:16,807 - rss_manager - INFO - Fetched 25 articles from http://forums.rancher.com/c/announcements.rss.
+2024-11-20 16:34:16,807 - __main__ - INFO - Processing feed: https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=800&Site=945&max=10
+2024-11-20 16:34:16,820 - rss_manager - INFO - Fetched 10 articles from https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=800&Site=945&max=10.
+2024-11-20 16:34:19,350 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:34:19,350 - __main__ - INFO - Processing feed: http://forums.rancher.com/c/application-platform.rss
+2024-11-20 16:34:19,521 - rss_manager - ERROR - Error fetching feed http://forums.rancher.com/c/application-platform.rss: 404, message='Not Found', url='https://forums.rancher.com/c/application-platform.rss'
+2024-11-20 16:34:19,521 - __main__ - INFO - Processing feed: https://www.kali.org/rss.xml
+2024-11-20 16:34:20,236 - rss_manager - INFO - Fetched 119 articles from https://www.kali.org/rss.xml.
+2024-11-20 16:34:20,236 - __main__ - INFO - Processing feed: https://feed.podbean.com/thegarynullshow/feed.xml
+2024-11-20 16:34:20,357 - rss_manager - INFO - Fetched 100 articles from https://feed.podbean.com/thegarynullshow/feed.xml.
+2024-11-20 16:34:22,759 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:34:22,760 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=FedReserveBoard
+2024-11-20 16:34:22,829 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=FedReserveBoard.
+2024-11-20 16:34:22,829 - __main__ - INFO - Processing feed: https://loc.gov/rss/copyright/crb.xml
+2024-11-20 16:34:23,072 - rss_manager - INFO - Fetched 25 articles from https://loc.gov/rss/copyright/crb.xml.
+2024-11-20 16:34:23,072 - __main__ - INFO - Processing feed: http://blogs.loc.gov/teachers/feed/
+2024-11-20 16:34:23,254 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/teachers/feed/.
+2024-11-20 16:34:23,254 - __main__ - INFO - Processing feed: https://www.copyright.gov/rss/creativity.xml
+2024-11-20 16:34:23,414 - rss_manager - INFO - Fetched 25 articles from https://www.copyright.gov/rss/creativity.xml.
+2024-11-20 16:34:23,414 - __main__ - INFO - Processing feed: https://www.lfedge.org/feed/
+2024-11-20 16:34:24,210 - rss_manager - INFO - Fetched 10 articles from https://www.lfedge.org/feed/.
+2024-11-20 16:34:24,210 - __main__ - INFO - Processing feed: https://www.nature.com/nrmicro.rss
+2024-11-20 16:34:24,409 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/nrmicro.rss.
+2024-11-20 16:34:24,409 - __main__ - INFO - Processing feed: https://dev.to/feed/
+2024-11-20 16:34:24,478 - rss_manager - INFO - Fetched 12 articles from https://dev.to/feed/.
+2024-11-20 16:34:27,712 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:34:30,128 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:34:32,183 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:34:34,144 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:34:50,718 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:34:53,030 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:34:56,951 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:34:59,532 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:04,671 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:07,618 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:09,916 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:11,841 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:11,841 - __main__ - INFO - Processing feed: http://feeds.feedburner.com/PythonInsider
+2024-11-20 16:35:12,022 - rss_manager - INFO - Fetched 25 articles from http://feeds.feedburner.com/PythonInsider.
+2024-11-20 16:35:12,023 - __main__ - INFO - Processing feed: https://www.mongodb.com/blog/rss
+2024-11-20 16:35:12,396 - rss_manager - INFO - Fetched 50 articles from https://www.mongodb.com/blog/rss.
+2024-11-20 16:35:14,672 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:14,672 - __main__ - INFO - Processing feed: https://www.cisa.gov/uscert/ncas/all.xml
+2024-11-20 16:35:15,159 - rss_manager - INFO - Fetched 30 articles from https://www.cisa.gov/uscert/ncas/all.xml.
+2024-11-20 16:35:16,601 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:18,979 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:18,979 - __main__ - INFO - Processing feed: https://github.blog/feed/
+2024-11-20 16:35:19,106 - rss_manager - INFO - Fetched 10 articles from https://github.blog/feed/.
+2024-11-20 16:35:19,107 - __main__ - INFO - Processing feed: https://aws.amazon.com/blogs/architecture/feed/
+2024-11-20 16:35:19,234 - rss_manager - INFO - Fetched 20 articles from https://aws.amazon.com/blogs/architecture/feed/.
+2024-11-20 16:35:19,234 - __main__ - INFO - Processing feed: https://www.nature.com/natcomputsci.rss
+2024-11-20 16:35:19,254 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/natcomputsci.rss.
+2024-11-20 16:35:19,254 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCcuy916j4jPX-W-bhjXh_cg
+2024-11-20 16:35:19,403 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCcuy916j4jPX-W-bhjXh_cg.
+2024-11-20 16:35:19,403 - __main__ - INFO - Processing feed: https://www.dataengineeringpodcast.com/feed/mp3/
+2024-11-20 16:35:19,559 - rss_manager - ERROR - Error fetching feed https://www.dataengineeringpodcast.com/feed/mp3/: 404, message='Not Found', url='https://www.dataengineeringpodcast.com/feed/mp3/'
+2024-11-20 16:35:19,559 - __main__ - INFO - Processing feed: https://www.dynatrace.com/news/feed/
+2024-11-20 16:35:19,791 - rss_manager - INFO - Fetched 24 articles from https://www.dynatrace.com/news/feed/.
+2024-11-20 16:35:21,806 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:24,015 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:24,015 - __main__ - INFO - Processing feed: https://www.congress.gov/rss/most-viewed-bills.xml
+2024-11-20 16:35:24,144 - rss_manager - INFO - Fetched 1 articles from https://www.congress.gov/rss/most-viewed-bills.xml.
+2024-11-20 16:35:24,144 - __main__ - INFO - Processing feed: https://faun.pub/feed
+2024-11-20 16:35:24,353 - rss_manager - INFO - Fetched 10 articles from https://faun.pub/feed.
+2024-11-20 16:35:24,353 - __main__ - INFO - Processing feed: https://www.redhat.com/en/rss/blog/channel/digital-transformation
+2024-11-20 16:35:24,872 - rss_manager - INFO - Fetched 10 articles from https://www.redhat.com/en/rss/blog/channel/digital-transformation.
+2024-11-20 16:35:24,872 - __main__ - INFO - Processing feed: https://govbooktalk.gpo.gov/feed/
+2024-11-20 16:35:24,939 - rss_manager - INFO - Fetched 12 articles from https://govbooktalk.gpo.gov/feed/.
+2024-11-20 16:35:24,939 - __main__ - INFO - Processing feed: https://www.datadoghq.com/blog/engineering/index.xml
+2024-11-20 16:35:24,992 - rss_manager - INFO - Fetched 15 articles from https://www.datadoghq.com/blog/engineering/index.xml.
+2024-11-20 16:35:24,992 - __main__ - INFO - Processing feed: https://www.linuxfoundation.org/feed/
+2024-11-20 16:35:25,073 - rss_manager - ERROR - Error fetching feed https://www.linuxfoundation.org/feed/: 404, message='Not Found', url='https://www.linuxfoundation.org/feed/'
+2024-11-20 16:35:25,074 - __main__ - INFO - Processing feed: https://www.technologyreview.com/topic/artificial-intelligence/feed/
+2024-11-20 16:35:25,145 - rss_manager - INFO - Fetched 10 articles from https://www.technologyreview.com/topic/artificial-intelligence/feed/.
+2024-11-20 16:35:25,145 - __main__ - INFO - Processing feed: https://blogs.loc.gov/preservation/feed/
+2024-11-20 16:35:25,410 - rss_manager - INFO - Fetched 10 articles from https://blogs.loc.gov/preservation/feed/.
+2024-11-20 16:35:25,411 - __main__ - INFO - Processing feed: https://blogs.loc.gov/loc/feed/
+2024-11-20 16:35:25,647 - rss_manager - INFO - Fetched 10 articles from https://blogs.loc.gov/loc/feed/.
+2024-11-20 16:35:25,647 - __main__ - INFO - Processing feed: https://ubuntu.com/blog/feed
+2024-11-20 16:35:26,205 - rss_manager - INFO - Fetched 12 articles from https://ubuntu.com/blog/feed.
+2024-11-20 16:35:28,902 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:30,854 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:32,972 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:32,973 - __main__ - INFO - Processing feed: https://news.ycombinator.com/rss
+2024-11-20 16:35:33,257 - rss_manager - INFO - Fetched 30 articles from https://news.ycombinator.com/rss.
+2024-11-20 16:35:35,244 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:37,172 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:38,942 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:40,673 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:42,259 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:45,039 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:46,581 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:48,326 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:49,918 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:51,996 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:53,869 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:56,040 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:35:57,836 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:02,320 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:04,258 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:06,518 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:08,572 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:11,509 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:13,400 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:14,957 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:18,202 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:18,202 - __main__ - INFO - Processing feed: https://www.sqlservercentral.com/blogs/feed
+2024-11-20 16:36:18,681 - rss_manager - INFO - Fetched 10 articles from https://www.sqlservercentral.com/blogs/feed.
+2024-11-20 16:36:21,482 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:21,482 - __main__ - INFO - Processing feed: https://feeds.feedburner.com/prometheus/blog
+2024-11-20 16:36:21,604 - rss_manager - INFO - Fetched 10 articles from https://feeds.feedburner.com/prometheus/blog.
+2024-11-20 16:36:21,604 - __main__ - INFO - Processing feed: https://insidebigdata.com/feed/
+2024-11-20 16:36:22,009 - rss_manager - INFO - Fetched 10 articles from https://insidebigdata.com/feed/.
+2024-11-20 16:36:23,756 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:23,756 - __main__ - INFO - Processing feed: https://www.flsenate.gov/Tracker/RSS/PressReleases
+2024-11-20 16:36:25,015 - rss_manager - WARNING - No entries found in feed: https://www.flsenate.gov/Tracker/RSS/PressReleases
+2024-11-20 16:36:25,015 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=IdahoDeptofLabor
+2024-11-20 16:36:25,130 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=IdahoDeptofLabor.
+2024-11-20 16:36:25,130 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCG5B6oQWWsIt-yO826IwG2Q
+2024-11-20 16:36:25,215 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCG5B6oQWWsIt-yO826IwG2Q.
+2024-11-20 16:36:27,323 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:29,259 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:31,201 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:33,278 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:35,291 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:38,236 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:38,236 - __main__ - INFO - Processing feed: https://www.nature.com/natsynth.rss
+2024-11-20 16:36:38,262 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/natsynth.rss.
+2024-11-20 16:36:38,262 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-viii.rss
+2024-11-20 16:36:47,460 - rss_manager - INFO - Fetched 25 articles from https://www.fema.gov/news/news_region-viii.rss.
+2024-11-20 16:36:47,460 - __main__ - INFO - Processing feed: https://www.nature.com/nature.rss
+2024-11-20 16:36:47,529 - rss_manager - INFO - Fetched 75 articles from https://www.nature.com/nature.rss.
+2024-11-20 16:36:49,253 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:51,458 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:53,966 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:55,784 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:36:59,049 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:01,901 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:04,080 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:06,374 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:08,814 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:10,453 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:12,686 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:16,384 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:18,601 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:20,851 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:22,491 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:25,017 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:27,502 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:30,151 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:32,484 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:35,124 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:37,380 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:40,262 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:43,052 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:45,640 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:48,166 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:49,930 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:52,579 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:55,481 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:57,295 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:37:59,500 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:01,444 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:03,602 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:06,446 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:08,601 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:10,834 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:13,285 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:15,707 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:17,967 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:20,454 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:22,399 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:25,069 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:27,539 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:31,289 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:33,448 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:35,491 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:37,158 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:38,802 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:40,669 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:42,487 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:44,226 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:47,064 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:49,482 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:51,582 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:53,188 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:54,980 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:56,576 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:38:59,251 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:00,804 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:02,658 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:04,216 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:11,122 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:13,118 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:15,406 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:17,165 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:19,321 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:20,949 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:23,153 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:25,391 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:27,397 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:27,398 - __main__ - INFO - Processing feed: http://rss.slashdot.org/Slashdot/slashdotMain
+2024-11-20 16:39:27,599 - rss_manager - INFO - Fetched 15 articles from http://rss.slashdot.org/Slashdot/slashdotMain.
+2024-11-20 16:39:30,582 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:33,822 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:38,204 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:39,974 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:42,071 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:44,780 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:50,157 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:53,241 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:56,017 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:39:59,161 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:02,286 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:06,060 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:09,449 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:09,449 - __main__ - INFO - Processing feed: https://www.govinfo.gov/rss/bills.xml
+2024-11-20 16:40:09,750 - rss_manager - INFO - Fetched 100 articles from https://www.govinfo.gov/rss/bills.xml.
+2024-11-20 16:40:12,125 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:14,590 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:17,147 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:19,134 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:21,421 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:24,554 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:26,240 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:28,468 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:30,415 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:31,999 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:34,406 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:36,244 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:39,802 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:42,403 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:44,800 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:47,278 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:49,781 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:51,432 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:54,073 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:55,808 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:40:57,989 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:00,280 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:02,575 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:02,575 - __main__ - INFO - Processing feed: https://www.databricks.com/feed
+2024-11-20 16:41:02,707 - rss_manager - INFO - Fetched 25 articles from https://www.databricks.com/feed.
+2024-11-20 16:41:04,286 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:04,286 - __main__ - INFO - Processing feed: https://www.rstudio.com/blog/index.xml
+2024-11-20 16:41:04,463 - rss_manager - WARNING - No entries found in feed: https://www.rstudio.com/blog/index.xml
+2024-11-20 16:41:04,463 - __main__ - INFO - Processing feed: https://planet.mysql.com/rss20.xml
+2024-11-20 16:41:05,390 - rss_manager - INFO - Fetched 48 articles from https://planet.mysql.com/rss20.xml.
+2024-11-20 16:41:09,265 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:13,870 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:15,886 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:15,887 - __main__ - INFO - Processing feed: https://glennsqlperformance.com/feed/
+2024-11-20 16:41:15,959 - rss_manager - INFO - Fetched 10 articles from https://glennsqlperformance.com/feed/.
+2024-11-20 16:41:15,959 - __main__ - INFO - Processing feed: https://www.dynatrace.com/news/category/devops/feed/
+2024-11-20 16:41:16,132 - rss_manager - INFO - Fetched 24 articles from https://www.dynatrace.com/news/category/devops/feed/.
+2024-11-20 16:41:16,132 - __main__ - INFO - Processing feed: https://investors.cyberark.com/rss/pressrelease.aspx
+2024-11-20 16:41:16,240 - rss_manager - ERROR - Error fetching feed https://investors.cyberark.com/rss/pressrelease.aspx: 403, message='Forbidden', url='https://investors.cyberark.com/rss/pressrelease.aspx'
+2024-11-20 16:41:16,240 - __main__ - INFO - Processing feed: https://www.nature.com/nri.rss
+2024-11-20 16:41:16,283 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/nri.rss.
+2024-11-20 16:41:16,283 - __main__ - INFO - Processing feed: https://newatlas.com/computers/index.rss
+2024-11-20 16:41:16,868 - rss_manager - INFO - Fetched 60 articles from https://newatlas.com/computers/index.rss.
+2024-11-20 16:41:16,869 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCs10x-muRrTQMJ4Ya-fmIlw
+2024-11-20 16:41:16,947 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCs10x-muRrTQMJ4Ya-fmIlw.
+2024-11-20 16:41:20,475 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:24,410 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:26,897 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:26,897 - __main__ - INFO - Processing feed: https://cloudblog.withgoogle.com/products/devops-sre/rss
+2024-11-20 16:41:28,683 - rss_manager - INFO - Fetched 20 articles from https://cloudblog.withgoogle.com/products/devops-sre/rss.
+2024-11-20 16:41:28,684 - __main__ - INFO - Processing feed: https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=10&ContentType=1&Site=945
+2024-11-20 16:41:28,824 - rss_manager - INFO - Fetched 10 articles from https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?max=10&ContentType=1&Site=945.
+2024-11-20 16:41:30,730 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:32,798 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:32,798 - __main__ - INFO - Processing feed: https://blog.google/technology/ai/rss/
+2024-11-20 16:41:32,956 - rss_manager - INFO - Fetched 20 articles from https://blog.google/technology/ai/rss/.
+2024-11-20 16:41:34,694 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:37,028 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:40,197 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:40,198 - __main__ - INFO - Processing feed: https://portal2portal.blogspot.com/feeds/posts/default
+2024-11-20 16:41:40,546 - rss_manager - INFO - Fetched 25 articles from https://portal2portal.blogspot.com/feeds/posts/default.
+2024-11-20 16:41:40,546 - __main__ - INFO - Processing feed: https://www.nature.com/natmachintell.rss
+2024-11-20 16:41:40,573 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/natmachintell.rss.
+2024-11-20 16:41:40,573 - __main__ - INFO - Processing feed: https://www.nist.gov/news-events/cybersecurity/rss.xml
+2024-11-20 16:41:40,622 - rss_manager - INFO - Fetched 40 articles from https://www.nist.gov/news-events/cybersecurity/rss.xml.
+2024-11-20 16:41:42,395 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:44,750 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:47,447 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:47,448 - __main__ - INFO - Processing feed: https://feeds.feedburner.com/oreilly/radar/atom
+2024-11-20 16:41:47,614 - rss_manager - INFO - Fetched 15 articles from https://feeds.feedburner.com/oreilly/radar/atom.
+2024-11-20 16:41:47,614 - __main__ - INFO - Processing feed: https://www.brentozar.com/blog/feed/
+2024-11-20 16:41:47,670 - rss_manager - INFO - Fetched 5 articles from https://www.brentozar.com/blog/feed/.
+2024-11-20 16:41:50,960 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:50,960 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=marketplacevideos
+2024-11-20 16:41:51,024 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=marketplacevideos.
+2024-11-20 16:41:51,024 - __main__ - INFO - Processing feed: https://mariadb.com/feed/
+2024-11-20 16:41:51,299 - rss_manager - INFO - Fetched 10 articles from https://mariadb.com/feed/.
+2024-11-20 16:41:53,382 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:53,382 - __main__ - INFO - Processing feed: https://blog.finxter.com/feed/
+2024-11-20 16:41:53,690 - rss_manager - INFO - Fetched 10 articles from https://blog.finxter.com/feed/.
+2024-11-20 16:41:53,690 - __main__ - INFO - Processing feed: https://www.cisa.gov/uscert/ics/announcements/announcements.xml
+2024-11-20 16:41:53,843 - rss_manager - ERROR - Error fetching feed https://www.cisa.gov/uscert/ics/announcements/announcements.xml: 404, message='Not Found', url='https://www.cisa.gov/uscert/ics/announcements/announcements.xml'
+2024-11-20 16:41:53,843 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=ScrippsResearch
+2024-11-20 16:41:53,898 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=ScrippsResearch.
+2024-11-20 16:41:53,898 - __main__ - INFO - Processing feed: https://www.redhat.com/en/rss/blog/channel/management-and-automation
+2024-11-20 16:41:53,969 - rss_manager - INFO - Fetched 2 articles from https://www.redhat.com/en/rss/blog/channel/management-and-automation.
+2024-11-20 16:41:53,969 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCKWaEZ-_VweaEx1j62do_vQ
+2024-11-20 16:41:54,019 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCKWaEZ-_VweaEx1j62do_vQ.
+2024-11-20 16:41:56,435 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:41:56,435 - __main__ - INFO - Processing feed: http://blogs.loc.gov/kluge/feed/
+2024-11-20 16:41:56,755 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/kluge/feed/.
+2024-11-20 16:41:56,755 - __main__ - INFO - Processing feed: http://blogs.loc.gov/inside_adams/feed/
+2024-11-20 16:41:57,008 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/inside_adams/feed/.
+2024-11-20 16:41:57,008 - __main__ - INFO - Processing feed: https://www.postgresql.org/news.rss
+2024-11-20 16:41:57,342 - rss_manager - INFO - Fetched 10 articles from https://www.postgresql.org/news.rss.
+2024-11-20 16:42:00,554 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:03,078 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:03,078 - __main__ - INFO - Processing feed: https://databricks.com/feed
+2024-11-20 16:42:03,235 - rss_manager - INFO - Fetched 25 articles from https://databricks.com/feed.
+2024-11-20 16:42:04,636 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:04,636 - __main__ - INFO - Processing feed: https://cprss.s3.amazonaws.com/nodeweekly.com.xml
+2024-11-20 16:42:05,074 - rss_manager - INFO - Fetched 4 articles from https://cprss.s3.amazonaws.com/nodeweekly.com.xml.
+2024-11-20 16:42:05,074 - __main__ - INFO - Processing feed: https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=2&Site=945&max=10
+2024-11-20 16:42:05,285 - rss_manager - INFO - Fetched 10 articles from https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=2&Site=945&max=10.
+2024-11-20 16:42:07,495 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:07,495 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ
+2024-11-20 16:42:07,514 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ.
+2024-11-20 16:42:07,514 - __main__ - INFO - Processing feed: https://www.loc.gov/rss/teachers/today-in-history/feed.xml
+2024-11-20 16:42:07,638 - rss_manager - INFO - Fetched 25 articles from https://www.loc.gov/rss/teachers/today-in-history/feed.xml.
+2024-11-20 16:42:07,638 - __main__ - INFO - Processing feed: https://aws.amazon.com/blogs/database/feed/
+2024-11-20 16:42:07,950 - rss_manager - INFO - Fetched 20 articles from https://aws.amazon.com/blogs/database/feed/.
+2024-11-20 16:42:11,048 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:12,959 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:12,959 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=ServeTheHomeVideo
+2024-11-20 16:42:13,017 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=ServeTheHomeVideo.
+2024-11-20 16:42:13,017 - __main__ - INFO - Processing feed: https://www.ansible.com/blog/rss.xml
+2024-11-20 16:42:13,211 - rss_manager - INFO - Fetched 10 articles from https://www.ansible.com/blog/rss.xml.
+2024-11-20 16:42:13,211 - __main__ - INFO - Processing feed: https://www.redhat.com/en/rss/blog/channel/cloud-native-computing
+2024-11-20 16:42:13,676 - rss_manager - ERROR - Error fetching feed https://www.redhat.com/en/rss/blog/channel/cloud-native-computing: 404, message='Not Found', url='https://www.redhat.com/en/rss/blog/channel/cloud-native-computing'
+2024-11-20 16:42:13,676 - __main__ - INFO - Processing feed: http://feeds.feedburner.com/TheHackersNews?format=xml
+2024-11-20 16:42:13,764 - rss_manager - INFO - Fetched 50 articles from http://feeds.feedburner.com/TheHackersNews?format=xml.
+2024-11-20 16:42:15,841 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:18,839 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:21,077 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:23,134 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:25,352 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:28,566 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:30,715 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:30,715 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCwFpzG5MK5Shg_ncAhrgr9g
+2024-11-20 16:42:30,880 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCwFpzG5MK5Shg_ncAhrgr9g.
+2024-11-20 16:42:30,880 - __main__ - INFO - Processing feed: https://www.cisa.gov/uscert/ncas/alerts.xml
+2024-11-20 16:42:31,485 - rss_manager - INFO - Fetched 10 articles from https://www.cisa.gov/uscert/ncas/alerts.xml.
+2024-11-20 16:42:31,485 - __main__ - INFO - Processing feed: https://www.nature.com/subjects/machine-learning.rss
+2024-11-20 16:42:31,505 - rss_manager - INFO - Fetched 30 articles from https://www.nature.com/subjects/machine-learning.rss.
+2024-11-20 16:42:31,506 - __main__ - INFO - Processing feed: https://www.sqlshack.com/feed/
+2024-11-20 16:42:31,580 - rss_manager - INFO - Fetched 10 articles from https://www.sqlshack.com/feed/.
+2024-11-20 16:42:31,580 - __main__ - INFO - Processing feed: https://realpython.com/atom.xml?format=xml
+2024-11-20 16:42:31,811 - rss_manager - INFO - Fetched 40 articles from https://realpython.com/atom.xml?format=xml.
+2024-11-20 16:42:33,255 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:33,255 - __main__ - INFO - Processing feed: https://stackoverflow.blog/feed
+2024-11-20 16:42:33,339 - rss_manager - INFO - Fetched 40 articles from https://stackoverflow.blog/feed.
+2024-11-20 16:42:35,366 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:35,366 - __main__ - INFO - Processing feed: http://blogs.loc.gov/music/feed/
+2024-11-20 16:42:35,670 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/music/feed/.
+2024-11-20 16:42:35,670 - __main__ - INFO - Processing feed: https://www.cncf.io/blog/feed/
+2024-11-20 16:42:35,898 - rss_manager - INFO - Fetched 10 articles from https://www.cncf.io/blog/feed/.
+2024-11-20 16:42:37,695 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:39,811 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:39,811 - __main__ - INFO - Processing feed: https://www.cisa.gov/uscert/ncas/current-activity.xml
+2024-11-20 16:42:39,892 - rss_manager - INFO - Fetched 30 articles from https://www.cisa.gov/uscert/ncas/current-activity.xml.
+2024-11-20 16:42:41,780 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:41,780 - __main__ - INFO - Processing feed: https://www.loc.gov/rss/news/library-of-congress-magazine/feed.xml
+2024-11-20 16:42:41,967 - rss_manager - INFO - Fetched 25 articles from https://www.loc.gov/rss/news/library-of-congress-magazine/feed.xml.
+2024-11-20 16:42:41,968 - __main__ - INFO - Processing feed: https://www.qlik.com/blog/blog/rss
+2024-11-20 16:42:42,414 - rss_manager - WARNING - No entries found in feed: https://www.qlik.com/blog/blog/rss
+2024-11-20 16:42:42,414 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=HamiltonCityCouncil
+2024-11-20 16:42:42,483 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=HamiltonCityCouncil.
+2024-11-20 16:42:42,483 - __main__ - INFO - Processing feed: https://investors.splunk.com/rss/news-releases.xml
+2024-11-20 16:42:42,939 - rss_manager - WARNING - No entries found in feed: https://investors.splunk.com/rss/news-releases.xml
+2024-11-20 16:42:42,939 - __main__ - INFO - Processing feed: http://forums.rancher.com/c/general.rss
+2024-11-20 16:42:43,710 - rss_manager - INFO - Fetched 25 articles from http://forums.rancher.com/c/general.rss.
+2024-11-20 16:42:45,509 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:45,510 - __main__ - INFO - Processing feed: https://blog.r-project.org/index.xml
+2024-11-20 16:42:46,021 - rss_manager - INFO - Fetched 52 articles from https://blog.r-project.org/index.xml.
+2024-11-20 16:42:46,021 - __main__ - INFO - Processing feed: https://www.r-bloggers.com/feed/
+2024-11-20 16:42:46,468 - rss_manager - INFO - Fetched 25 articles from https://www.r-bloggers.com/feed/.
+2024-11-20 16:42:48,765 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:51,158 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:42:51,159 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-x.rss
+2024-11-20 16:42:59,318 - rss_manager - INFO - Fetched 25 articles from https://www.fema.gov/news/news_region-x.rss.
+2024-11-20 16:42:59,318 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCZUyPT9DkJWmS_DzdOi7RIA
+2024-11-20 16:42:59,390 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCZUyPT9DkJWmS_DzdOi7RIA.
+2024-11-20 16:42:59,391 - __main__ - INFO - Processing feed: https://www.nature.com/natsustain.rss
+2024-11-20 16:42:59,412 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/natsustain.rss.
+2024-11-20 16:42:59,412 - __main__ - INFO - Processing feed: http://www.loc.gov/rss/virtualprograms/news.xml
+2024-11-20 16:42:59,662 - rss_manager - INFO - Fetched 25 articles from http://www.loc.gov/rss/virtualprograms/news.xml.
+2024-11-20 16:42:59,662 - __main__ - INFO - Processing feed: https://www.lastweekinaws.com/feed/
+2024-11-20 16:43:00,088 - rss_manager - INFO - Fetched 12 articles from https://www.lastweekinaws.com/feed/.
+2024-11-20 16:43:00,088 - __main__ - INFO - Processing feed: http://www.loc.gov/law/foreign-news/feed/
+2024-11-20 16:43:00,356 - rss_manager - WARNING - No entries found in feed: http://www.loc.gov/law/foreign-news/feed/
+2024-11-20 16:43:00,356 - __main__ - INFO - Processing feed: https://www.cisa.gov/uscert/ics/monitors/monitors.xml
+2024-11-20 16:43:00,608 - rss_manager - ERROR - Error fetching feed https://www.cisa.gov/uscert/ics/monitors/monitors.xml: 404, message='Not Found', url='https://www.cisa.gov/uscert/ics/monitors/monitors.xml'
+2024-11-20 16:43:00,608 - __main__ - INFO - Processing feed: https://analytixon.com/feed/
+2024-11-20 16:43:00,848 - rss_manager - ERROR - Error fetching feed https://analytixon.com/feed/: Cannot connect to host analytixon.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1006)')]
+2024-11-20 16:43:00,849 - __main__ - INFO - Processing feed: https://feeds.feedburner.com/oreilly/newbooks
+2024-11-20 16:43:00,910 - rss_manager - WARNING - No entries found in feed: https://feeds.feedburner.com/oreilly/newbooks
+2024-11-20 16:43:00,910 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-iv.rss
+2024-11-20 16:43:08,939 - rss_manager - INFO - Fetched 10 articles from https://www.fema.gov/news/news_region-iv.rss.
+2024-11-20 16:43:13,505 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:43:16,145 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:43:16,146 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCoOq-DtESvayx5yJE5H6-qQ
+2024-11-20 16:43:16,295 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCoOq-DtESvayx5yJE5H6-qQ.
+2024-11-20 16:43:16,295 - __main__ - INFO - Processing feed: https://blogs.oracle.com/database/rss
+2024-11-20 16:43:16,938 - rss_manager - ERROR - Error fetching feed https://blogs.oracle.com/database/rss: 403, message='Forbidden', url='https://blogs.oracle.com/database/rss'
+2024-11-20 16:43:16,938 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-v.rss
+2024-11-20 16:43:25,482 - rss_manager - INFO - Fetched 25 articles from https://www.fema.gov/news/news_region-v.rss.
+2024-11-20 16:43:25,482 - __main__ - INFO - Processing feed: https://www.cncf.io/feed/
+2024-11-20 16:43:25,559 - rss_manager - INFO - Fetched 10 articles from https://www.cncf.io/feed/.
+2024-11-20 16:43:28,028 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:43:29,903 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:43:29,903 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCGWZY-0pONnKmF98dhZy9CQ
+2024-11-20 16:43:29,960 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCGWZY-0pONnKmF98dhZy9CQ.
+2024-11-20 16:43:29,960 - __main__ - INFO - Processing feed: http://blogs.loc.gov/thesignal/feed/
+2024-11-20 16:43:30,360 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/thesignal/feed/.
+2024-11-20 16:43:30,360 - __main__ - INFO - Processing feed: https://www.loc.gov/rss/patrons/alerts.xml
+2024-11-20 16:43:30,508 - rss_manager - INFO - Fetched 25 articles from https://www.loc.gov/rss/patrons/alerts.xml.
+2024-11-20 16:43:30,508 - __main__ - INFO - Processing feed: https://www.nature.com/npjscifood.rss
+2024-11-20 16:43:30,529 - rss_manager - INFO - Fetched 8 articles from https://www.nature.com/npjscifood.rss.
+2024-11-20 16:43:30,529 - __main__ - INFO - Processing feed: https://www.congress.gov/rss/notification.xml
+2024-11-20 16:43:30,614 - rss_manager - INFO - Fetched 25 articles from https://www.congress.gov/rss/notification.xml.
+2024-11-20 16:43:30,615 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCSXwxpWZQ7XZ1WL3wqevChA
+2024-11-20 16:43:30,666 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCSXwxpWZQ7XZ1WL3wqevChA.
+2024-11-20 16:43:30,667 - __main__ - INFO - Processing feed: https://www.datadoghq.com/blog/index.xml
+2024-11-20 16:43:30,775 - rss_manager - INFO - Fetched 15 articles from https://www.datadoghq.com/blog/index.xml.
+2024-11-20 16:43:30,775 - __main__ - INFO - Processing feed: https://www.theregister.co.uk/devops/headlines.atom
+2024-11-20 16:43:30,935 - rss_manager - INFO - Fetched 50 articles from https://www.theregister.co.uk/devops/headlines.atom.
+2024-11-20 16:43:30,935 - __main__ - INFO - Processing feed: http://loc.gov/rss/copyright/mma.xml
+2024-11-20 16:43:31,153 - rss_manager - INFO - Fetched 25 articles from http://loc.gov/rss/copyright/mma.xml.
+2024-11-20 16:43:31,153 - __main__ - INFO - Processing feed: http://blogs.loc.gov/headlinesandheroes/feed/
+2024-11-20 16:43:31,445 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/headlinesandheroes/feed/.
+2024-11-20 16:43:31,445 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCJS9pqu9BzkAMNTmzNMNhvg
+2024-11-20 16:43:31,461 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCJS9pqu9BzkAMNTmzNMNhvg.
+2024-11-20 16:43:31,461 - __main__ - INFO - Processing feed: https://www.copyright.gov/rss/eservice.xml
+2024-11-20 16:43:31,658 - rss_manager - INFO - Fetched 25 articles from https://www.copyright.gov/rss/eservice.xml.
+2024-11-20 16:43:31,658 - __main__ - INFO - Processing feed: https://ropensci.org/blog/index.xml
+2024-11-20 16:43:32,060 - rss_manager - INFO - Fetched 20 articles from https://ropensci.org/blog/index.xml.
+2024-11-20 16:43:32,060 - __main__ - INFO - Processing feed: https://www.redhat.com/en/rss/blog/channel/red-hat-news
+2024-11-20 16:43:32,260 - rss_manager - INFO - Fetched 10 articles from https://www.redhat.com/en/rss/blog/channel/red-hat-news.
+2024-11-20 16:43:32,260 - __main__ - INFO - Processing feed: https://www.cisa.gov/uscert/ics/advisories/advisories.xml
+2024-11-20 16:43:32,502 - rss_manager - INFO - Fetched 30 articles from https://www.cisa.gov/uscert/ics/advisories/advisories.xml.
+2024-11-20 16:43:32,503 - __main__ - INFO - Processing feed: https://rweekly.org/atom.xml
+2024-11-20 16:43:33,062 - rss_manager - INFO - Fetched 40 articles from https://rweekly.org/atom.xml.
+2024-11-20 16:43:33,062 - __main__ - INFO - Processing feed: http://blogs.loc.gov/law/feed/
+2024-11-20 16:43:33,317 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/law/feed/.
+2024-11-20 16:43:35,206 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:43:35,207 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCp6NUFV9mSEK6RxUiEVymVg
+2024-11-20 16:43:35,270 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCp6NUFV9mSEK6RxUiEVymVg.
+2024-11-20 16:43:35,271 - __main__ - INFO - Processing feed: https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=13&Site=945&max=10
+2024-11-20 16:43:35,390 - rss_manager - INFO - Fetched 10 articles from https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=13&Site=945&max=10.
+2024-11-20 16:43:37,172 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:43:37,172 - __main__ - INFO - Processing feed: https://planet.scipy.org/feed.xml
+2024-11-20 16:43:37,399 - rss_manager - ERROR - Error fetching feed https://planet.scipy.org/feed.xml: Cannot connect to host planet.scipy.org:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'planet.scipy.org'. (_ssl.c:1006)")]
+2024-11-20 16:43:37,399 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCYg157Qy_U7ZR1WUHTq0Q8Q
+2024-11-20 16:43:37,461 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCYg157Qy_U7ZR1WUHTq0Q8Q.
+2024-11-20 16:43:37,461 - __main__ - INFO - Processing feed: https://www.teradata.com/rss/Blogs
+2024-11-20 16:43:37,530 - rss_manager - INFO - Fetched 10 articles from https://www.teradata.com/rss/Blogs.
+2024-11-20 16:43:37,530 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-iii.rss
+2024-11-20 16:43:46,632 - rss_manager - INFO - Fetched 10 articles from https://www.fema.gov/news/news_region-iii.rss.
+2024-11-20 16:43:49,252 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:43:49,253 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=geerlingguy
+2024-11-20 16:43:49,310 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=geerlingguy.
+2024-11-20 16:43:51,394 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:43:51,394 - __main__ - INFO - Processing feed: https://www.cisa.gov/uscert/ncas/tips.xml
+2024-11-20 16:43:51,571 - rss_manager - WARNING - No entries found in feed: https://www.cisa.gov/uscert/ncas/tips.xml
+2024-11-20 16:43:51,571 - __main__ - INFO - Processing feed: https://www.govinfo.gov/rss/uscourts-ca1.xml
+2024-11-20 16:43:51,706 - rss_manager - INFO - Fetched 100 articles from https://www.govinfo.gov/rss/uscourts-ca1.xml.
+2024-11-20 16:43:51,706 - __main__ - INFO - Processing feed: https://www.smartdatacollective.com/feed/
+2024-11-20 16:43:54,968 - rss_manager - INFO - Fetched 10 articles from https://www.smartdatacollective.com/feed/.
+2024-11-20 16:43:56,653 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:43:58,364 - twitter_bot - ERROR - Failed to post tweet: {"title":"Too Many Requests","detail":"Too Many Requests","type":"about:blank","status":429}
+2024-11-20 16:43:58,364 - __main__ - INFO - Processing feed: https://azurecomcdn.azureedge.net/en-us/blog/topics/database/feed/
+2024-11-20 16:44:07,498 - rss_manager - ERROR - Error fetching feed https://azurecomcdn.azureedge.net/en-us/blog/topics/database/feed/: 404, message='Not Found', url='https://azurecomcdn.azureedge.net/en-us/blog/topics/database/feed/'
+2024-11-20 16:44:07,498 - __main__ - WARNING - No suitable articles found across all feeds.
+2024-11-20 16:44:07,498 - __main__ - INFO - Closing RSS manager...
+2024-11-20 16:44:07,499 - __main__ - INFO - RSS manager closed

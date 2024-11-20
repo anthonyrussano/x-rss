@@ -10716,3 +10716,24 @@ What's the coolest thing you've done with Amazon Q Developer? Share your experie
 2024-11-20 11:14:57,741 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-20 11:14:57,741 - __main__ - INFO - Closing RSS manager...
 2024-11-20 11:14:57,741 - __main__ - INFO - RSS manager closed
+2024-11-20 12:36:08,999 - __main__ - INFO - Starting RSS feed processing...
+2024-11-20 12:36:08,999 - __main__ - INFO - Loading credentials...
+2024-11-20 12:36:08,999 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-20 12:36:08,999 - __main__ - INFO - Initializing components...
+2024-11-20 12:36:09,001 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-20 12:36:09,001 - __main__ - INFO - All components initialized successfully
+2024-11-20 12:36:09,001 - __main__ - INFO - Cleaning up old history entries...
+2024-11-20 12:36:09,002 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-20 12:36:09,002 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UC-AdvAxaagE9W2f0webyNUQ
+2024-11-20 12:36:09,049 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UC-AdvAxaagE9W2f0webyNUQ.
+2024-11-20 12:36:11,044 - twitter_bot - INFO - Successfully posted tweet: 🚨 Revolutionizing IT! How are you streamlining your cloud provisioning? 🤖 
+
+Skechers USA Inc. shares their journey with #HCP #Terraform and #ServiceNow to boost efficiency. Watch now! 📽️🔗 
+
+https://www.youtube.com/watch?v=9zo5IOypxn0
+
+@HashiCorp @ServiceNow #CloudAutomation #DevOps
+2024-11-20 12:36:11,044 - __main__ - INFO - Successfully posted tweet for article: Streamlining provisioning with HCP Terraform and ServiceNow
+2024-11-20 12:36:11,044 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-20 12:36:11,044 - __main__ - INFO - Closing RSS manager...
+2024-11-20 12:36:11,045 - __main__ - INFO - RSS manager closed

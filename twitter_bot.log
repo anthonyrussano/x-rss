@@ -10737,3 +10737,28 @@ https://www.youtube.com/watch?v=9zo5IOypxn0
 2024-11-20 12:36:11,044 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-20 12:36:11,044 - __main__ - INFO - Closing RSS manager...
 2024-11-20 12:36:11,045 - __main__ - INFO - RSS manager closed
+2024-11-20 13:26:32,631 - __main__ - INFO - Starting RSS feed processing...
+2024-11-20 13:26:32,631 - __main__ - INFO - Loading credentials...
+2024-11-20 13:26:32,631 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-20 13:26:32,632 - __main__ - INFO - Initializing components...
+2024-11-20 13:26:32,633 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-20 13:26:32,634 - __main__ - INFO - All components initialized successfully
+2024-11-20 13:26:32,634 - __main__ - INFO - Cleaning up old history entries...
+2024-11-20 13:26:32,634 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-20 13:26:32,634 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCcuy916j4jPX-W-bhjXh_cg
+2024-11-20 13:26:32,731 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCcuy916j4jPX-W-bhjXh_cg.
+2024-11-20 13:26:32,731 - __main__ - INFO - Processing feed: https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=9&Site=945&max=10
+2024-11-20 13:26:33,028 - rss_manager - INFO - Fetched 10 articles from https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=9&Site=945&max=10.
+2024-11-20 13:26:35,230 - twitter_bot - INFO - Successfully posted tweet: Here's your tweet:
+
+🚀 Big news for diversity in defense! The @DeptofDefense just signed an MOU to boost opportunities for minority businesses in the defense sector. What impact will this have on innovation and inclusion? 🇺🇸 #DiversityInDefense #MinorityBusiness #DefenseInnovation
+
+👉 Learn more: [URL]
+
+🔥 Will this change the game for minority entrepreneurs? Let's discuss! 🔥
+
+[URL]
+2024-11-20 13:26:35,231 - __main__ - INFO - Successfully posted tweet for article: Department of Defense Signs MOU to Expand Opportunities for Minority Business Enterprises
+2024-11-20 13:26:35,231 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-20 13:26:35,231 - __main__ - INFO - Closing RSS manager...
+2024-11-20 13:26:35,231 - __main__ - INFO - RSS manager closed

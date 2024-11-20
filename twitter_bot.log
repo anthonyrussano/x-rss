@@ -10461,3 +10461,24 @@ Read more: https://www.jeffgeerling.com/blog/2024/llms-accelerated-egpu-on-raspb
 2024-11-20 02:55:29,429 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-20 02:55:29,429 - __main__ - INFO - Closing RSS manager...
 2024-11-20 02:55:29,430 - __main__ - INFO - RSS manager closed
+2024-11-20 03:28:52,877 - __main__ - INFO - Starting RSS feed processing...
+2024-11-20 03:28:52,878 - __main__ - INFO - Loading credentials...
+2024-11-20 03:28:52,878 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-20 03:28:52,878 - __main__ - INFO - Initializing components...
+2024-11-20 03:28:52,880 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-20 03:28:52,880 - __main__ - INFO - All components initialized successfully
+2024-11-20 03:28:52,880 - __main__ - INFO - Cleaning up old history entries...
+2024-11-20 03:28:52,880 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-20 03:28:52,880 - __main__ - INFO - Processing feed: https://about.gitlab.com/atom.xml
+2024-11-20 03:28:53,023 - rss_manager - INFO - Fetched 20 articles from https://about.gitlab.com/atom.xml.
+2024-11-20 03:28:53,023 - __main__ - INFO - Processing feed: https://blog.sqlauthority.com/feed/
+2024-11-20 03:28:53,680 - rss_manager - INFO - Fetched 5 articles from https://blog.sqlauthority.com/feed/.
+2024-11-20 03:28:53,680 - __main__ - INFO - Processing feed: https://dev.to/feed/
+2024-11-20 03:28:53,850 - rss_manager - INFO - Fetched 12 articles from https://dev.to/feed/.
+2024-11-20 03:28:56,439 - twitter_bot - INFO - Successfully posted tweet: 🚨 Attention all security researchers! TECNO has updated its Web Vulnerability Bounty Rules! 🕵️‍♂️ Earn rewards for finding bugs on sites like www.tecno-mobile.com & more. Check out the new reward structure and contribute to safer tech! 💻 #CyberSecurity #BugBounty
+
+🔗 Full details: https://dev.to/tecno-security/web-vulnerability-bounty-rules-update-181g
+2024-11-20 03:28:56,439 - __main__ - INFO - Successfully posted tweet for article: Web vulnerability bounty rules update
+2024-11-20 03:28:56,440 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-20 03:28:56,440 - __main__ - INFO - Closing RSS manager...
+2024-11-20 03:28:56,440 - __main__ - INFO - RSS manager closed

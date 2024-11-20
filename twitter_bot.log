@@ -10436,3 +10436,28 @@ Read more: https://aws.amazon.com/blogs/big-data/introducing-point-in-time-queri
 2024-11-20 01:22:57,605 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-20 01:22:57,606 - __main__ - INFO - Closing RSS manager...
 2024-11-20 01:22:57,606 - __main__ - INFO - RSS manager closed
+2024-11-20 02:55:24,610 - __main__ - INFO - Starting RSS feed processing...
+2024-11-20 02:55:24,610 - __main__ - INFO - Loading credentials...
+2024-11-20 02:55:24,610 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-20 02:55:24,610 - __main__ - INFO - Initializing components...
+2024-11-20 02:55:24,612 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-20 02:55:24,612 - __main__ - INFO - All components initialized successfully
+2024-11-20 02:55:24,612 - __main__ - INFO - Cleaning up old history entries...
+2024-11-20 02:55:24,613 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-20 02:55:24,613 - __main__ - INFO - Processing feed: https://blog.r-project.org/index.xml
+2024-11-20 02:55:24,844 - rss_manager - INFO - Fetched 52 articles from https://blog.r-project.org/index.xml.
+2024-11-20 02:55:24,845 - __main__ - INFO - Processing feed: http://forums.rancher.com/c/general.rss
+2024-11-20 02:55:25,577 - rss_manager - INFO - Fetched 25 articles from http://forums.rancher.com/c/general.rss.
+2024-11-20 02:55:25,577 - __main__ - INFO - Processing feed: http://www.loc.gov/rss/law/reports.xml
+2024-11-20 02:55:25,796 - rss_manager - INFO - Fetched 25 articles from http://www.loc.gov/rss/law/reports.xml.
+2024-11-20 02:55:25,796 - __main__ - INFO - Processing feed: http://blogs.loc.gov/ofthepeople/feed/
+2024-11-20 02:55:26,300 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/ofthepeople/feed/.
+2024-11-20 02:55:26,300 - __main__ - INFO - Processing feed: https://www.jeffgeerling.com/blog.xml
+2024-11-20 02:55:26,378 - rss_manager - INFO - Fetched 10 articles from https://www.jeffgeerling.com/blog.xml.
+2024-11-20 02:55:29,429 - twitter_bot - INFO - Successfully posted tweet: 🍓💨 Who said Raspberry Pi can't handle some serious graphics? Check out how @jeffgeerling got AMD GPUs working on a Pi 5 for LLMs and more. The future of mini PCs just got brighter! 🔥 #RaspberryPi #eGPU #TechInnovation
+
+Read more: https://www.jeffgeerling.com/blog/2024/llms-accelerated-egpu-on-raspberry-pi-5
+2024-11-20 02:55:29,429 - __main__ - INFO - Successfully posted tweet for article: LLMs accelerated with eGPU on a Raspberry Pi 5
+2024-11-20 02:55:29,429 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-20 02:55:29,429 - __main__ - INFO - Closing RSS manager...
+2024-11-20 02:55:29,430 - __main__ - INFO - RSS manager closed

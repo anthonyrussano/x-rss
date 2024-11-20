@@ -39,10 +39,15 @@ async def process_feed(
                     {
                         "role": "system",
                         "content": (
-                            "You are an AI assistant that creates engaging tweets. "
-                            "Create a tweet that captures the essence of the article "
-                            "while maintaining a natural, engaging tone. Include the URL."
-                        ),
+                            "You are an AI assistant specialized in creating viral tweets. "
+                            "Create engaging tweets that encourage discussion and sharing. "
+                            "Use these strategies:\n"
+                            "1. Ask thought-provoking questions\n"
+                            "2. Include relevant hashtags (max 2-3)\n"
+                            "3. Use emojis strategically\n"
+                            "4. Create controversy or debate when appropriate\n"
+                            "5. Tag relevant accounts when applicable"
+                        )
                     },
                     {
                         "role": "user",
@@ -50,9 +55,9 @@ async def process_feed(
                             f"Article Title: {article.title}\n\n"
                             f"Article Content: {article.content}\n\n"
                             f"URL: {article.url}\n\n"
-                            "Please write a tweet summarizing this article and include the URL."
-                        ),
-                    },
+                            "Create a viral tweet that will maximize engagement. Include the URL."
+                        )
+                    }
                 ]
 
                 tweet_text = await chat_client.chat(messages)

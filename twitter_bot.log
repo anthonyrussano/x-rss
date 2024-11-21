@@ -13492,3 +13492,26 @@ What's your take on this? Would you sign up to explore space from your desk? �
 2024-11-21 02:55:21,835 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-21 02:55:21,835 - __main__ - INFO - Closing RSS manager...
 2024-11-21 02:55:21,835 - __main__ - INFO - RSS manager closed
+2024-11-21 03:28:30,238 - __main__ - INFO - Starting RSS feed processing...
+2024-11-21 03:28:30,238 - __main__ - INFO - Loading credentials...
+2024-11-21 03:28:30,239 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-21 03:28:30,239 - __main__ - INFO - Initializing components...
+2024-11-21 03:28:30,240 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-21 03:28:30,240 - __main__ - INFO - All components initialized successfully
+2024-11-21 03:28:30,240 - __main__ - INFO - Cleaning up old history entries...
+2024-11-21 03:28:30,241 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-21 03:28:30,241 - __main__ - INFO - Processing feed: https://www.dataengineeringpodcast.com/feed/mp3/
+2024-11-21 03:28:30,466 - rss_manager - ERROR - Error fetching feed https://www.dataengineeringpodcast.com/feed/mp3/: 404, message='Not Found', url='https://www.dataengineeringpodcast.com/feed/mp3/'
+2024-11-21 03:28:30,466 - __main__ - INFO - Processing feed: http://forums.rancher.com/c/application-platform.rss
+2024-11-21 03:28:30,955 - rss_manager - ERROR - Error fetching feed http://forums.rancher.com/c/application-platform.rss: 404, message='Not Found', url='https://forums.rancher.com/c/application-platform.rss'
+2024-11-21 03:28:30,956 - __main__ - INFO - Processing feed: http://blogs.loc.gov/law/feed/
+2024-11-21 03:28:31,306 - rss_manager - INFO - Fetched 10 articles from http://blogs.loc.gov/law/feed/.
+2024-11-21 03:28:34,199 - twitter_bot - INFO - Successfully posted tweet: 🇩🇪 Ever wondered how a vote of no confidence or a snap election works in Germany? Dive into the fascinating world of German politics! 🗳️ #GermanPolitics #SnapElections
+
+👉 Read more: https://blogs.loc.gov/law/2024/11/falqs-german-government-formation-votes-of-no-confidence-and-snap-elections/
+
+Should Germany have more frequent snap elections to keep politicians in check? 🤔 #DebateTime @GermanyDiplo
+2024-11-21 03:28:34,199 - __main__ - INFO - Successfully posted tweet for article: FALQs: German Government Formation – Votes of No Confidence and Snap Elections
+2024-11-21 03:28:34,199 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-21 03:28:34,199 - __main__ - INFO - Closing RSS manager...
+2024-11-21 03:28:34,200 - __main__ - INFO - RSS manager closed

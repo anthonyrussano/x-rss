@@ -13556,3 +13556,34 @@ What's the most crucial piece of equipment on your farm? Share your story & get 
 2024-11-21 05:17:55,002 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-21 05:17:55,003 - __main__ - INFO - Closing RSS manager...
 2024-11-21 05:17:55,003 - __main__ - INFO - RSS manager closed
+2024-11-21 06:26:17,763 - __main__ - INFO - Starting RSS feed processing...
+2024-11-21 06:26:17,763 - __main__ - INFO - Loading credentials...
+2024-11-21 06:26:17,764 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-21 06:26:17,764 - __main__ - INFO - Initializing components...
+2024-11-21 06:26:17,766 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-21 06:26:17,766 - __main__ - INFO - All components initialized successfully
+2024-11-21 06:26:17,766 - __main__ - INFO - Cleaning up old history entries...
+2024-11-21 06:26:17,766 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-21 06:26:17,766 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=ScrippsHealth
+2024-11-21 06:26:17,891 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=ScrippsHealth.
+2024-11-21 06:26:17,892 - __main__ - INFO - Processing feed: https://investors.splunk.com/rss/news-releases.xml
+2024-11-21 06:26:17,989 - rss_manager - WARNING - No entries found in feed: https://investors.splunk.com/rss/news-releases.xml
+2024-11-21 06:26:17,989 - __main__ - INFO - Processing feed: https://www.loc.gov/rss/news/library-of-congress-magazine/feed.xml
+2024-11-21 06:26:18,352 - rss_manager - INFO - Fetched 25 articles from https://www.loc.gov/rss/news/library-of-congress-magazine/feed.xml.
+2024-11-21 06:26:18,352 - __main__ - INFO - Processing feed: https://www.datadoghq.com/blog/engineering/index.xml
+2024-11-21 06:26:18,565 - rss_manager - INFO - Fetched 15 articles from https://www.datadoghq.com/blog/engineering/index.xml.
+2024-11-21 06:26:18,565 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?user=IdahoDeptofLabor
+2024-11-21 06:26:18,670 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?user=IdahoDeptofLabor.
+2024-11-21 06:26:18,670 - __main__ - INFO - Processing feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCFe9-V_rN9nLqVNiI8Yof3w
+2024-11-21 06:26:18,941 - rss_manager - INFO - Fetched 15 articles from https://www.youtube.com/feeds/videos.xml?channel_id=UCFe9-V_rN9nLqVNiI8Yof3w.
+2024-11-21 06:26:21,730 - twitter_bot - INFO - Successfully posted tweet: 🎧 New Audio Setup Teaser Alert! 🔊 Can you spot the hidden gem in my latest setup video? 🤔 #DevOps #AudioSetup #Teaser
+
+👉 Watch now: https://www.youtube.com/watch?v=ySIw7xLoZVM
+
+@Kubernetesio fans, what audio gear do you use for your dev sessions? 🎙️ Drop your setup pics and tag @marceldempers for a shoutout! 📸
+
+Like, comment, and share if you love tech secrets! 🔍 #TechGeek
+2024-11-21 06:26:21,730 - __main__ - INFO - Successfully posted tweet for article: New Audio Setup! Can you spot the teaser ? #DevOps #shorts
+2024-11-21 06:26:21,730 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-21 06:26:21,730 - __main__ - INFO - Closing RSS manager...
+2024-11-21 06:26:21,731 - __main__ - INFO - RSS manager closed

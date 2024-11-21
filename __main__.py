@@ -11,6 +11,7 @@ from prompt_manager import PromptManager
 from thread_generator import ThreadGenerator
 
 from requests_oauthlib import OAuth1Session
+import time
 
 # Configure logging
 logging.basicConfig(
@@ -96,6 +97,22 @@ def _should_create_thread(content: str) -> bool:
     
     return word_count > 100 or has_complex_content
 
+def exponential_backoff_retry(request_func, max_retries=5):
+    retry_delay = 10  # start with 10 seconds delay
+    for attempt in range(max_retries):
+        response = request_func()
+        if response.status_code == 201:
+            return response
+        elif response.status_code == 429:
+            print(f"Rate limit exceeded, retrying in {retry_delay} seconds...")
+            time.sleep(retry_delay)
+            retry_delay *= 2  # double the delay for the next attempt
+        else:
+            print(
+                f"Failed to post tweet with status {response.status_code}: {response.text}"
+            )
+            break
+    return None
 
 async def main():
     """Main entry point for the Twitter bot."""

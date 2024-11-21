@@ -14,7 +14,10 @@ def load_config() -> dict:
             "article_freshness_hours": 24,
             "max_feeds_per_run": 25,
             "max_articles_per_feed": 5,
-            "log_level": "INFO"
+            "log_level": "INFO",
+            "max_thread_length": 5,
+            "min_thread_content_length": 100,
+            "thread_delay_seconds": 1
         }
     
     with open(config_path) as f:

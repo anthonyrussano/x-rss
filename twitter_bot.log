@@ -13533,3 +13533,26 @@ https://www.androidpolice.com/reddit-outage-november-2024/
 2024-11-21 04:22:18,534 - __main__ - INFO - Successfully posted one tweet, finishing process.
 2024-11-21 04:22:18,534 - __main__ - INFO - Closing RSS manager...
 2024-11-21 04:22:18,534 - __main__ - INFO - RSS manager closed
+2024-11-21 05:17:41,165 - __main__ - INFO - Starting RSS feed processing...
+2024-11-21 05:17:41,165 - __main__ - INFO - Loading credentials...
+2024-11-21 05:17:41,165 - __main__ - INFO - Credentials loaded and validated successfully
+2024-11-21 05:17:41,165 - __main__ - INFO - Initializing components...
+2024-11-21 05:17:41,167 - rss_manager - INFO - Loaded 217 feeds.
+2024-11-21 05:17:41,167 - __main__ - INFO - All components initialized successfully
+2024-11-21 05:17:41,167 - __main__ - INFO - Cleaning up old history entries...
+2024-11-21 05:17:41,168 - __main__ - INFO - Loaded 217 feeds for processing.
+2024-11-21 05:17:41,168 - __main__ - INFO - Processing feed: http://loc.gov/rss/copyright/mma.xml
+2024-11-21 05:17:41,961 - rss_manager - INFO - Fetched 25 articles from http://loc.gov/rss/copyright/mma.xml.
+2024-11-21 05:17:41,962 - __main__ - INFO - Processing feed: https://www.fema.gov/news/news_region-iv.rss
+2024-11-21 05:17:52,155 - rss_manager - INFO - Fetched 10 articles from https://www.fema.gov/news/news_region-iv.rss.
+2024-11-21 05:17:55,002 - twitter_bot - INFO - Successfully posted tweet: 🚨 Attention Farmers & Ranch Hands! 🚨
+
+Did you know you might be eligible for **FEMA assistance** to replace tools & equipment damaged by Tropical Storm Helene? 🌪️
+
+What's the most crucial piece of equipment on your farm? Share your story & get help here: 🌾
+
+🔗 https://www.fema.gov/press-release/20241120/farmers-ranch-hands-may-be-eligible-fema-assistance #FEMA #TropicalStormHelene #FarmersAid @FEMA
+2024-11-21 05:17:55,002 - __main__ - INFO - Successfully posted tweet for article: Farmers, Ranch Hands May Be Eligible for FEMA Assistance
+2024-11-21 05:17:55,002 - __main__ - INFO - Successfully posted one tweet, finishing process.
+2024-11-21 05:17:55,003 - __main__ - INFO - Closing RSS manager...
+2024-11-21 05:17:55,003 - __main__ - INFO - RSS manager closed
